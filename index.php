@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
+  <?php include './navbar.php' ?>
   
+
+  <?php include './footer.php'?>
   </body>
 </html>
