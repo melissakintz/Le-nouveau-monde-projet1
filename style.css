@@ -30,18 +30,25 @@ background-image: url("https://www.transparenttextures.com/patterns/wavecut.png"
   font-size: 35px;
 }
 
-
 nav li  {
     display: inline;
     list-style-type: none;
-    margin-left: 5px;
+    color: black;
+    padding-right: 1.5rem;
 }
 
+ nav li a {
+     text-decoration: none;
+ }
 
 nav li:hover {
-    text-transform: uppercase ;
+    font-variant: small-caps ;
 }
 
+nav li a:visited {
+    color: black;
+    text-decoration: none;
+}
 
 #introduction {
   text-align: start;
