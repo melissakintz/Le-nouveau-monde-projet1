@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family:'onepiece';
+  src:url('./font-polices/onepiece.ttf');
+}
 
 #bannertop {
   display: flex;
@@ -8,6 +11,7 @@
 }
 #text {
   text-align: center;
+  font-family: onepiece;
 }
 
 nav li {
@@ -38,6 +42,8 @@ nav li {
 }
 #charpentier{
   margin-inline-start: 25px;
+  
+  
 }
 @media screen and(max-width: 480px){
 
