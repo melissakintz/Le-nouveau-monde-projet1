@@ -4,7 +4,7 @@
   src:url('./font-polices/onepiece.ttf');
 }
 
-}
+
 @font-face {
    font-family:'One';
    src:url('./font/one.ttf');
@@ -47,25 +47,33 @@ background-image: url("https://www.transparenttextures.com/patterns/wavecut.png"
   font-family:One;
   font-size: 35px;
   font-family: onepiece;
+  font-size: 2em;
 }
-
 
 nav li  {
     display: inline;
     list-style-type: none;
-    margin-left: 5px;
+    color: black;
+    padding-right: 1.5rem;
 }
 
+ nav li a {
+     text-decoration: none;
+ }
 
 nav li:hover {
-    text-transform: uppercase ;
+    font-variant: small-caps ;
 }
 
+nav li a:visited {
+    color: black;
+    text-decoration: none;
+}
 
 #introduction {
   text-align: start;
   font-family: One;
-  font-size:20px;
+  font-size:2em;
   text-align: center;
   padding-top: 50px;
 }
@@ -85,25 +93,36 @@ nav li:hover {
     display: flex;
     justify-content: space-evenly;
     font-family:One;
-    font-size: 20px;
+    font-size: 1em;
   }
 #musicien {
   margin-left: 10px;
+  margin-bottom: 50px;
 }
 #médecin {
   margin-inline-start: 40px;
+  margin-bottom: 50px;
 }
 #charpentier{
   margin-inline-start: 25px;
   
   
+  margin-bottom: 50px;
 }
 
 footer img {
     float : right;
     margin-left: 10px;
-}
+    margin-bottom: 10px;
+    
 
+}
+#planet {
+  display: flex;
+  align-items: flex-end;
+  width: 30px;
+ 
+}
 
 @media screen and(max-width: 480px){
 
