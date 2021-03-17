@@ -30,9 +30,18 @@ background-image: url("https://www.transparenttextures.com/patterns/wavecut.png"
   font-size: 35px;
 }
 
-nav li {
+
+nav li  {
+    display: inline;
     list-style-type: none;
+    margin-left: 5px;
 }
+
+
+nav li:hover {
+    text-transform: uppercase ;
+}
+
 
 #introduction {
   text-align: start;
@@ -67,10 +76,14 @@ nav li {
 }
 #charpentier{
   margin-inline-start: 25px;
-
-
-
 }
+
+footer img {
+    float : right;
+    margin-left: 10px;
+}
+
+
 @media screen and(max-width: 480px){
 
 }
