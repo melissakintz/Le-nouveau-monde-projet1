@@ -13,7 +13,9 @@
     <main>
       <section id="herobanner">
       
-          <img src = "./assets/banner3.jpg" id = "bannertop">
+      <img src = "./assets/banner3.jpg" class= "bannertop">
+          <p class ="bannertop"> Go to New World </p>
+          
       </section>
       <section id = "text">
      <h1> Bienvenu dans le nouveau monde </h1>
@@ -21,7 +23,7 @@
      </p>
 </section>
 <section id ='introduction'>
-<h1>n'hesitez pas à jetez un petit coup d'oeil aux trois favoris du mois !</h1> 
+<h1>N'hesitez pas à jeter un petit coup d'oeil aux trois favoris du mois.</h1> 
       <section id="carte">
         <section id ="carte-img">
         <a href="./brook.php"><img src="./assets/brook1.jpg"/></a>
