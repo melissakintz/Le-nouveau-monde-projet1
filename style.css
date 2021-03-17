@@ -1,5 +1,19 @@
 
 
+@font-face {
+   font-family:'One';
+   src:url('./font/one.ttf');
+}
+@font-face {
+   font-family:'One';
+   src:url('./font/one.ttf');
+   font-weight:bold;
+}
+@font-face {
+   font-family:'One';
+   src:url('./font/one.ttf');
+   font-style:italic;
+}
 #bannertop {
   display: flex;
   align-items: center;
@@ -8,16 +22,23 @@
 }
 #text {
   text-align: center;
+  font-family:One;
+  font-size: 35px;
 }
 
 nav li {
     list-style-type: none;
 }
 
-
+#introduction {
+  text-align: start;
+  font-family: One;
+  font-size:20px;
+  text-align: center;
+  padding-top: 50px;
+}
 
 #carte-img {
-    padding-top: 100px;
     border-radius: 10px;
     height:200px;
     width: 100%;
@@ -25,10 +46,14 @@ nav li {
     justify-content: space-evenly;
     max-width:100%;
     
+    
   }
   #carte-body {
+    
     display: flex;
     justify-content: space-evenly;
+    font-family:One;
+    font-size: 20px;
   }
 #musicien {
   margin-left: 10px;
@@ -38,6 +63,9 @@ nav li {
 }
 #charpentier{
   margin-inline-start: 25px;
+
+
+
 }
 @media screen and(max-width: 480px){
 
