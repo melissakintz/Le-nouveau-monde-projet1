@@ -17,14 +17,14 @@
       </section>
 
       <section id = "text">
-<<<<<<< HEAD
+
      <h1> Bienvenu dans le nouveau monde </h1>
      <p>Recrutez la personne de vos rêve pour votre equipage.
      </p>
 </section>
 <section id ='introduction'>
 <h1>n'hesitez pas à jetez un petit coup d'oeil aux trois favoris du mois !</h1> 
-=======
+
         <h1> Bienvenu dans le nouveau monde </h1>
         <p>Recrutez la personne de vos rêve pour votre équipage</p>
       </section>
@@ -33,7 +33,6 @@
         <h1>n'hesitez pas à jetez un petit coup d'oeil aux trois favoris du mois !</h1>
       </section>
 
->>>>>>> b6aed2552f35a195a13c25871871c2c9580ba745
       <section id="carte">
         <section id ="carte-img">
             <a href="./brook.php"><img src="./assets/brook1.jpg"/></a>

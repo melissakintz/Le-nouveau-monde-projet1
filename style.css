@@ -77,20 +77,30 @@ nav li a:visited {
   }
 #musicien {
   margin-left: 10px;
+  margin-bottom: 50px;
 }
 #médecin {
   margin-inline-start: 40px;
+  margin-bottom: 50px;
 }
 #charpentier{
   margin-inline-start: 25px;
+  margin-bottom: 50px;
 }
 
 footer img {
     float : right;
     margin-left: 10px;
     margin-bottom: 10px;
-}
+    
 
+}
+#planet {
+  display: flex;
+  align-items: flex-end;
+  width: 30px;
+ 
+}
 
 @media screen and(max-width: 480px){
 
