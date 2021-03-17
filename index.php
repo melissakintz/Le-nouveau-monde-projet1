@@ -13,7 +13,7 @@
     <main>
       <section id="herobanner">
       
-          <img src = "./assets/banner1.png" id = "bannertop">
+          <img src = "./assets/banner3.jpg" id = "bannertop">
       </section>
       <section id = "text">
      <h1> Bienvenu dans le nouveau monde </h1>
@@ -24,9 +24,9 @@
 <h1>n'hesitez pas à jetez un petit coup d'oeil aux trois favoris du mois !</h1> 
       <section id="carte">
         <section id ="carte-img">
-          <img src = "./assets/brook1.jpg" >
-          <img src = "./assets/chopper1.jpg" >
-          <img src = "./assets/franky1.jpg" >
+        <a href="./brook.php"><img src="./assets/brook1.jpg"/></a>
+        <a href="./chopper.php"><img src="./assets/chopper1.jpg"/></a>
+        <a href="./franky.php"><img src="./assets/franky1.jpg"/></a>
 </section>
 </section>
         <section id = "carte-body">
