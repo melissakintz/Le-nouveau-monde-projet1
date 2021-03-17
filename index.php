@@ -12,8 +12,9 @@
 
     <main>
       <section id="herobanner">
-        <h1>Bienvenu dans le nouveau monde !</h1>
-        <p>Recrutez la personne de vos rêve pour votre équipage!</p>
+          <h1>Bienvenu dans le nouveau monde !</h1>
+          <br>
+          <p>Recrutez la personne de vos rêve pour votre équipage!</p>
       </section>
 
       <section id="carte">
