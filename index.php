@@ -12,13 +12,28 @@
 
     <main>
       <section id="herobanner">
-          <h1>Bienvenu dans le nouveau monde !</h1>
-          <br>
-          <p>Recrutez la personne de vos rêve pour votre équipage!</p>
+      
+          <img src = "./assets/banner1.png" id = "bannertop">
       </section>
-
+      <section id = "text">
+     <h1> Bienvenu dans le nouveau monde </h1>
+     <p>Recrutez la personne de vos rêve pour votre équipage.
+     </p>
+</section>
       <section id="carte">
-        
+        <section id ="carte-img">
+          <img src = "./assets/brook.jpg"  id ="brook">
+          <img src = "./assets/chopper.jpg" >
+          <img src = "./assets/franky.jpg" >
+</section>
+        <section id = "carte-body">
+          
+          <h2 id = 'musicien'>Musicien</h2>
+          <h2 id ='médecin'>Médecin</h2>
+          <h2 id = 'charpentier'>Charpentier</h2>
+</section>
+        <section id ="carte-button">
+</section>
       </section>
 
       
