@@ -22,14 +22,14 @@
 </section>
       <section id="carte">
         <section id ="carte-img">
-          <img src = "./assets/brook.jpg"  id ="brook">
-          <img src = "./assets/chopper.jpg" >
-          <img src = "./assets/franky.jpg" >
+          <img src = "./assets/brook1.jpg" >
+          <img src = "./assets/chopper1.jpg" >
+          <img src = "./assets/franky1.jpg" >
 </section>
         <section id = "carte-body">
           
           <h2 id = 'musicien'>Musicien</h2>
-          <h2 id ='médecin'>Médecin</h2>
+          <h2 id = 'médecin'>Médecin</h2>
           <h2 id = 'charpentier'>Charpentier</h2>
 </section>
         <section id ="carte-button">

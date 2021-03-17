@@ -29,15 +29,15 @@ nav li {
   #carte-body {
     display: flex;
     justify-content: space-evenly;
-    
   }
-#musicien,#médecin,#charpentier { 
-  height:200px;
-  width: 100%;
-  display: flex;
-  text-align: center;
-  margin-left: 100px;
-  
+#musicien {
+  margin-left: 10px;
+}
+#médecin {
+  margin-inline-start: 40px;
+}
+#charpentier{
+  margin-inline-start: 25px;
 }
 @media screen and(max-width: 480px){
 
