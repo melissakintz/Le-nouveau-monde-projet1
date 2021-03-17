@@ -12,8 +12,15 @@
 
     <main>
       <section id="herobanner">
+<<<<<<< HEAD
+      
+      <img src = "./assets/banner3.jpg" class= "bannertop">
+          <p class ="bannertop"> Go to New World </p>
+          
+=======
 
           <img src = "./assets/banner3.jpg" id = "bannertop">
+>>>>>>> 6d436fa0e384449503dc5e9d51743ff66c66afd2
       </section>
 
       <section id = "text">
@@ -23,9 +30,13 @@
      </p>
 </section>
 <section id ='introduction'>
+<<<<<<< HEAD
+<h1>N'hesitez pas à jeter un petit coup d'oeil aux trois favoris du mois.</h1> 
+=======
 <h1>n'hesitez pas à jeter un petit coup d'oeil aux trois favoris du mois !</h1>   
 
       </section>
+>>>>>>> 6d436fa0e384449503dc5e9d51743ff66c66afd2
       <section id="carte">
         <section id ="carte-img">
             <a href="./brook.php"><img src="./assets/brook1.jpg"/></a>
