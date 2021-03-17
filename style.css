@@ -1,7 +1,8 @@
 
-body {
-background-color: #dbdbdb;
-background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+@font-face {
+  font-family:'onepiece';
+  src:url('./font-polices/onepiece.ttf');
+}
 
 }
 @font-face {
@@ -28,6 +29,7 @@ background-image: url("https://www.transparenttextures.com/patterns/wavecut.png"
   text-align: center;
   font-family:One;
   font-size: 35px;
+  font-family: onepiece;
 }
 
 
@@ -76,6 +78,8 @@ nav li:hover {
 }
 #charpentier{
   margin-inline-start: 25px;
+  
+  
 }
 
 footer img {
