@@ -17,7 +17,7 @@
       </section>
       <section id = "text">
      <h1> Bienvenu dans le nouveau monde </h1>
-     <p>Recrutez la personne de vos rêve pour votre équipage.
+     <p>Recrutez la personne de vos rêve pour votre equipage.
      </p>
 </section>
 <section id ='introduction'>

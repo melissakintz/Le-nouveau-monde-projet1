@@ -27,7 +27,7 @@ background-image: url("https://www.transparenttextures.com/patterns/wavecut.png"
 #text {
   text-align: center;
   font-family:One;
-  font-size: 35px;
+  font-size: 2em;
 }
 
 
@@ -46,7 +46,7 @@ nav li:hover {
 #introduction {
   text-align: start;
   font-family: One;
-  font-size:20px;
+  font-size:2em;
   text-align: center;
   padding-top: 50px;
 }
@@ -66,7 +66,7 @@ nav li:hover {
     display: flex;
     justify-content: space-evenly;
     font-family:One;
-    font-size: 20px;
+    font-size: 1em;
   }
 #musicien {
   margin-left: 10px;
@@ -81,6 +81,7 @@ nav li:hover {
 footer img {
     float : right;
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 
