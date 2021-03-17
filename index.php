@@ -18,21 +18,14 @@
 
       <section id = "text">
 
-     <h1> Bienvenu dans le nouveau monde </h1>
-     <p>Recrutez la personne de vos rêve pour votre equipage.
+     <h1> Bienvenue dans le nouveau monde </h1>
+     <p>Recrutez la personne de vos rêves pour votre equipage.
      </p>
 </section>
 <section id ='introduction'>
-<h1>n'hesitez pas à jetez un petit coup d'oeil aux trois favoris du mois !</h1> 
+<h1>n'hesitez pas à jeter un petit coup d'oeil aux trois favoris du mois !</h1>   
 
-        <h1> Bienvenu dans le nouveau monde </h1>
-        <p>Recrutez la personne de vos rêve pour votre équipage</p>
       </section>
-
-      <section id ='introduction'>
-        <h1>n'hesitez pas à jetez un petit coup d'oeil aux trois favoris du mois !</h1>
-      </section>
-
       <section id="carte">
         <section id ="carte-img">
             <a href="./brook.php"><img src="./assets/brook1.jpg"/></a>
