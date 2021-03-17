@@ -1,9 +1,3 @@
-
-body {
-background-color: #dbdbdb;
-background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
-
-}
 @font-face {
    font-family:'One';
    src:url('./font/one.ttf');
@@ -18,6 +12,12 @@ background-image: url("https://www.transparenttextures.com/patterns/wavecut.png"
    src:url('./font/one.ttf');
    font-style:italic;
 }
+
+body {
+    background-color: #dbdbdb;
+    background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+}
+
 #bannertop {
   display: flex;
   align-items: center;
