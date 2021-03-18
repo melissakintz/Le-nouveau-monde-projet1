@@ -16,39 +16,22 @@
    src:url('./font/one.ttf');
    font-style:italic;
 }
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: #dbdbdb;
     background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
 }
 
-#bannertop {
-  background-color: #f5f5f5;
-    background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+nav {
+    height: 4vw;
+    padding-top: 2vw;
+    font-size: 2vw;
+    margin-left: 1vw;
 }
-
-.bannertop {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  
-}
-.bannertop p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#text {
-  text-align: center;
-  font-family:One;
-  font-size: 35px;
-  font-family: onepiece;
-  font-size: 2em;
-}
-
 nav li  {
     display: inline;
     list-style-type: none;
@@ -69,60 +52,48 @@ nav li a:visited {
     text-decoration: none;
 }
 
-#introduction {
-  text-align: start;
-  font-family: One;
-  font-size:2em;
-  text-align: center;
-  padding-top: 50px;
+h1, h2, p {
+    font-family: One;
 }
 
-#carte-img {
-    border-radius: 10px;
+.banner {
+    background: url("./assets/banner31.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vw;
+    font-size: 3vw;
+    text-align:center;
+}
+
+#introduction {
+  font-size:2vw;
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-bottom: 10vw;
+    flex-flow: row nowrap;
+}
+
+#items {
     height:200px;
     width: 100%;
-    display: flex;
     justify-content: space-evenly;
-    max-width:100%;
-    
-    
-  }
-  #carte-body {
-    
-    display: flex;
-    justify-content: space-evenly;
-    font-family:One;
-    font-size: 1em;
-  }
-#musicien {
-  margin-left: 10px;
-  margin-bottom: 50px;
-}
-#médecin {
-  margin-inline-start: 40px;
-  margin-bottom: 50px;
-}
-#charpentier{
-  margin-inline-start: 25px;
-  
-  
-  margin-bottom: 50px;
+    text-align: center;
+    font-size: 2vw;
 }
 
 footer img {
     float : right;
     margin-left: 10px;
     margin-bottom: 10px;
-    
-
 }
-#planet {
-  display: flex;
-  align-items: flex-end;
-  width: 30px;
- 
-}
-
-@media screen and(max-width: 480px){
-
+#separation {
+margin-left: 15%;
+margin-bottom: 2%;
+margin-top: 2%;
 }
