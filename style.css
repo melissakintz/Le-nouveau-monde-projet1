@@ -62,7 +62,7 @@ h1, h2, p {
     width: 130%;
     height: 30vw;
     font-size: 3vw;
-    text-align: center;
+    text-align:center;
 }
 
 #introduction {
@@ -94,6 +94,6 @@ footer img {
 }
 #separation {
 margin-left: 15%;
-margin-bottom: 5%;
-margin-top: 5%;
+margin-bottom: 2%;
+margin-top: 2%;
 }
