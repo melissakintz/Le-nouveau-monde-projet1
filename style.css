@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'One';
+    src:url('./font/one.ttf');
+  }
+  @font-face {
+     font-family:'One';
+     src:url('./font/one.ttf');
+  }
+  @font-face {
+     font-family:'One';
+     src:url('./font/one.ttf');
+     font-weight:bold;
+  }
+  @font-face {
+     font-family:'One';
+     src:url('./font/one.ttf');
+     font-style:italic;
+
+     * {
+        padding: 0;
+        margin: 0;
+    }
+     h1, h2, p {
+        font-family: One;
+    }
+
+    body {
+        background-color: #dbdbdb;
+        background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+    }
