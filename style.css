@@ -1,4 +1,8 @@
- @font-face {
+@font-face {
+    font-family:'One';
+    src:url('./font/onepiece.ttf');
+  }
+  @font-face {
      font-family:'One';
      src:url('./font/one.ttf');
   }
@@ -114,7 +118,7 @@ footer img {
           text-align: center;
           font-size: 2vw;
       }
-  }
+    
   
       footer img {
           float : right;
@@ -150,4 +154,4 @@ footer img {
         margin-top: 10vw;
         width: 5vw;
     }
-  }
+}
