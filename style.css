@@ -118,7 +118,7 @@ footer img {
           text-align: center;
           font-size: 2vw;
       }
-    }
+  }
   
       footer img {
           float : right;
@@ -131,8 +131,7 @@ footer img {
           margin-bottom: 2%;
           margin-top: 2%;
       }
-  
-    }
+     }
   
   @media screen and (max-width: 728px){
       .container  {
@@ -155,4 +154,4 @@ footer img {
         margin-top: 10vw;
         width: 5vw;
     }
-}
+  }
