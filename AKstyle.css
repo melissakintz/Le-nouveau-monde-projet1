@@ -1,0 +1,56 @@
+@font-face {
+    font-family:'One';
+    src:url('./font/one.ttf');
+  }
+  @font-face {
+     font-family:'One';
+     src:url('./font/one.ttf');
+  }
+  @font-face {
+     font-family:'One';
+     src:url('./font/one.ttf');
+     font-weight:bold;
+  }
+  @font-face {
+     font-family:'One';
+     src:url('./font/one.ttf');
+     font-style:italic;
+  }
+
+  h1, h2, p {
+    font-family:One;
+}
+.Presentation {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Biographie {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.Compétence {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.imgCompétence {
+    display: flex;
+    justify-content:space-evenly;
+}
+.Personnalité {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5vw;   
+}
+@media screen and (max-width: 768px)
+{
+.imgCompétence {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 3%;
+   
+ }
+}
