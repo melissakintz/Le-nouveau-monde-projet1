@@ -126,8 +126,7 @@
       }
   
       #items {
-    
-        align-content: center;
+        justify-content: center;
           flex-flow: column wrap;
       }
   }
