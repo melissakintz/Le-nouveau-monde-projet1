@@ -1,20 +1,20 @@
 @font-face {
-  font-family:'onepiece';
-  src:url('./font-polices/onepiece.ttf');
+    font-family:'onepiece';
+    src:url('./font-polices/onepiece.ttf');
 }
 @font-face {
-   font-family:'One';
-   src:url('./font/one.ttf');
+    font-family:'One';
+    src:url('./font/one.ttf');
 }
 @font-face {
-   font-family:'One';
-   src:url('./font/one.ttf');
-   font-weight:bold;
+    font-family:'One';
+    src:url('./font/one.ttf');
+    font-weight:bold;
 }
 @font-face {
-   font-family:'One';
-   src:url('./font/one.ttf');
-   font-style:italic;
+    font-family:'One';
+    src:url('./font/one.ttf');
+    font-style:italic;
 }
 
 * {
@@ -71,6 +71,22 @@ h1, h2, p {
     padding-top: 5vw;
     padding-bottom: 2vw;
 }
+footer p {
+    font-family: Arial;
+    font-size: 1vw;
+}
+footer img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#separation {
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 
 @media screen and (min-width: 1024px) {
     .container {
@@ -125,8 +141,20 @@ h1, h2, p {
     }
 
     #items {
-        align-items: center;
         flex-flow: column wrap;
     }
-}
 
+    footer #credit {
+        display: none;
+    }
+
+    footer #separation {
+        display: none;
+    }
+
+    footer img {
+        float: right;
+        margin-top: 10vw;
+        width: 5vw;
+    }
+}
