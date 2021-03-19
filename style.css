@@ -1,6 +1,6 @@
 @font-face {
     font-family:'One';
-    src:url('./font/onepiece.ttf');
+    src:url('./font-polices/onepiece.ttf');
   }
   @font-face {
      font-family:'One';
@@ -71,21 +71,7 @@
       padding-top: 5vw;
       padding-bottom: 2vw;
   }
-  footer p {
-    font-family: Arial;
-    font-size: 1vw;
-}
-footer img {
-    float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-#separation {
-    margin-left: 15%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-} 
+  
   @media screen and (min-width: 1024px) {
       .container {
           display: flex;
@@ -103,7 +89,7 @@ footer img {
       }
   }
   
-  @media screen and (min-width: 728px) {
+  @media screen and (min-width: 728px){
       .container {
           display: flex;
           width: 100%;
@@ -112,13 +98,13 @@ footer img {
       }
   
       #items {
-          height: 200px;
+          height:200px;
           width: 100%;
           justify-content: space-evenly;
           text-align: center;
           font-size: 2vw;
       }
-    
+    }
   
       footer img {
           float : right;
@@ -131,7 +117,8 @@ footer img {
           margin-bottom: 2%;
           margin-top: 2%;
       }
-     }
+  
+  }
   
   @media screen and (max-width: 728px){
       .container  {
@@ -142,16 +129,4 @@ footer img {
         justify-content: center;
           flex-flow: column wrap;
       }
-      footer #credit {
-        display: none;
-     }
-     footer #separation {
-        display: none;
-    }
-
-    footer img {
-        float: right;
-        margin-top: 10vw;
-        width: 5vw;
-    }
-}
+  }
