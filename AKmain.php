@@ -27,18 +27,22 @@ mais ce ne fut qu'une bref période avant de repartir a la recherche du trésors
 Mon âme a également un pouvoir sur la musique ce qui lui a permis de séduire des millions de fans dans le monde entier.</br>
 Je sais aussi d'imprégner mon épée du froid glacial du royaume des morts, ce qui en fait une arme redoutable.</br>
 </section>
-<section class = "imgCompétence ">  
+<section class = "imgCompétence">  
 <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
    <div>
-      <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+      <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <img src="./Akassets/brook.gif ">
       </div>
-</n>
-    </div>
-      <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+   </div>
+      <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
             <img src="./Akassets/Diagramme.png">
       </div>
    </div>
+   <div>
+    <div class="uk-card uk-card-default  uk-hidden@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+          <img src="./Akassets/Diagramme.png ">
+    </div>
+ </div>
 
 </section>
 
