@@ -18,7 +18,7 @@
     </div>
 </nav>
 
-<nav class="uk-navbar uk-navbar-container uk-margin uk-hidden@s" uk-offcanvas>
+<nav class="uk-navbar uk-navbar-container uk-margin uk-hidden@s"  uk-offcanvas>
     <div class="uk-navbar-left">
         <a class="uk-navbar-toggle" href="#">
             <button class="uk-button uk-button-default uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-nav-primary"><span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></button>
@@ -32,9 +32,9 @@
                             <a href="#">Contact</a>
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Chopper</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>Franky</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>Brook</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
                     </ul>
 
                 </div>

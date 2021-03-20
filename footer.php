@@ -1,3 +1,4 @@
+<!--
 <footer>
     <div id = "separation">
         <hr style="height: 2px; color: #000000; background-color: #000000; width: 80%; border: none;">
@@ -13,3 +14,5 @@
     </div>
 
 </footer>
+
+-->
