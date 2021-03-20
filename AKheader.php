@@ -1,4 +1,8 @@
 <header>
+<div id="my-id">
+    <div uk-sticky="top: #my-id"></div>
+</div>   
+<h2 id = "Présentation"></h2>
 <div class="uk-child-width-1-2@s uk-light" uk-grid>
     <div>
         <div class="uk-background-top-right uk-background-cover uk-height-medium  uk-visible@s" style="background-image: url(./AKassets/brook9.gif);">

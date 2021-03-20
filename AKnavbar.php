@@ -1,15 +1,16 @@
-<nav class="uk-navbar-container uk-visible@s" uk-navbar>
+<nav class="uk-navbar-container; uk-visible@s" uk-navbar>
     <div class="uk-navbar-left">
-        <ul class="uk-navbar-nav">
+        <ul class="uk-navbar-nav ">
             <li class="uk-active"><a href="./index.php">Accueil</a></li>
             <li><a href="./Akcontact.php">Contact</a></li>
             <li>
                 <a href="#">Brook</a>
-                <div class="uk-navbar-dropdown">
+                <div class="uk-navbar-dropdown ">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="#Presentation">Présentation</a></li>
+                        <li><a href="#Présentation">Présentation</a></li>
                         <li><a href="#Biographie">Biographie</a></li>
                         <li><a href="#Compétence">Compétences</a></li>
+                        <li><a href="#Personnalité">Personnalité</a></li>
                         <li><a href="#">Le Book de Brook</a></li>
                     </ul>
                 </div>
@@ -41,9 +42,10 @@
                             <a href="./Akcontact.php">Contact</a>
                         </li>
                         <li class="uk-nav-header">Brook</li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Présentation</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Biographie</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Compétences</a></li>
+                        <li><a href="#Présentation"><span class="uk-margin-small-right" ></span>Présentation</a></li>
+                        <li><a href="#Biographie"><span class="uk-margin-small-right" ></span>Biographie</a></li>
+                        <li><a href="#Compétence"><span class="uk-margin-small-right" ></span>Compétences</a></li>
+                        <li><a href="#Personnalité  "><span class="uk-margin-small-right" ></span>Personnalité</a></li>
                         <li><a href="#"><span class="uk-margin-small-right" ></span>Le Book de Brook</a></li> 
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>

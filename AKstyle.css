@@ -39,12 +39,38 @@
 .imgCompétence {
     display: flex;
     justify-content:space-evenly;
+    margin-right: 2%;
 }
 .Personnalité {
     margin-top: 5%;
     text-align: center;
     font-size: 1.5vw;   
 }
+.Contact{
+    display: flex;
+    justify-content:flex-start;   
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 1.5vw;
+}
+#bateau {
+ margin-left: 33%;
+ margin-top: 5%; 
+}
+#Contact {
+margin-left: 5%;
+}
+#separation {
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+} 
+.Instagram {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    float:right;
+}
+
 @media screen and (max-width: 768px)
 {
 .imgCompétence {
@@ -53,4 +79,9 @@
     margin-top: 3%;
    
  }
+
+ footer #separation {
+    display: none;
 }
+}
+
