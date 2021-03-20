@@ -1,6 +1,5 @@
 <header>
 <div id="my-id">
-    <div uk-sticky="top: #my-id"></div>
 </div>   
 <h2 id = "Présentation"></h2>
 <div class="uk-child-width-1-2@s uk-light" uk-grid>
@@ -16,6 +15,11 @@
         <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center uk-hidden@s " style="background-image: url(./AKassets/brook7.jpg);">
         </div>
 </div>
+<script>
+    UIkit.util.on('#js-scroll-trigger', 'scrolled', function () {
+        alert('Done.');
+    });
+</script>
 </div>
 <section class = "Presentation">
     <h2>Brook le fredonneur</h2>

@@ -11,7 +11,7 @@
                         <li><a href="#Biographie">Biographie</a></li>
                         <li><a href="#Compétence">Compétences</a></li>
                         <li><a href="#Personnalité">Personnalité</a></li>
-                        <li><a href="#">Le Book de Brook</a></li>
+                        <li><a href="./AKbook.php">Le Book de Brook</a></li>
                     </ul>
                 </div>
             </li>
@@ -19,7 +19,6 @@
                 <a href="#">Curriculum Vitae</a>
                 <div class="uk-navbar-dropdown">
                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="./cvFranky.php">Brook</a></li>
                         <li><a href="./AKBrook.php">Franky</a></li>
                         <li><a href="#">Chopper</a></li>
                      </ul>
@@ -46,12 +45,11 @@
                         <li><a href="#Biographie"><span class="uk-margin-small-right" ></span>Biographie</a></li>
                         <li><a href="#Compétence"><span class="uk-margin-small-right" ></span>Compétences</a></li>
                         <li><a href="#Personnalité  "><span class="uk-margin-small-right" ></span>Personnalité</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Le Book de Brook</a></li> 
+                        <li><a href="./AKbook.php"><span class="uk-margin-small-right" ></span>Le Book de Brook</a></li> 
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span> Brook</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Franky</a></li>
                         <li><a href="#"><span class="uk-margin-small-right" ></span>Chopper</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" ></span>Franky</a></li>
                     </ul>
                     
                     
