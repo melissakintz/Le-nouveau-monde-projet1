@@ -57,7 +57,7 @@ Il est on ne va pas se mentir un eternel trouillard.</br>
 </section>
 
 <section class ="Contact uk-visible@s">
-<a href="./contactme.php"> <img src="./AKassets/contactme.png"/></a>
+<img src="./AKassets/contactme.png"/>
 <p> Aurais tu l'extrême amabilite de me montrer ta culotte !?</br>
 AHHH non pas ma couronne !?#! </p>
 <section id = "bateau"> 
@@ -65,10 +65,4 @@ AHHH non pas ma couronne !?#! </p>
 </section>
 </section>
 
-<section class ="Contact uk-hidden@s">
-<p> Touche le logo si tu veux en apprendre plus sur moi !</p></br>
-<section class ="BrookLogo">
-<a href="./contactme.php"> <img src="./AKassets/contactme2.png"/></a>
-</section>
-</section>
 </main>
