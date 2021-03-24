@@ -1,0 +1,144 @@
+@font-face {
+    font-family:'One';
+    src:url('./font/one.ttf');
+}
+@font-face {
+    font-family:'One';
+    src:url('./font/one.ttf');
+}
+@font-face {
+    font-family:'One';
+    src:url('./font/one.ttf');
+    font-weight:bold;
+}
+@font-face {
+    font-family:'One';
+    src:url('./font/one.ttf');
+    font-style:italic;
+}
+
+h1, h2 {
+    font-family: One;
+    font-size: 3vw;
+}
+p {
+    font-size: 2vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+.Presentation {
+    text-align:center;
+    margin-top: 2%;
+}
+
+.Biographie {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Compétence {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.imgCompétence {
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 2%;
+}
+.Personnalité {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.Contact{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 1.5vw;
+}
+#bateau {
+    margin-left: 33%;
+    margin-top: 5%;
+}
+#Contact {
+    margin-left: 5%;
+}
+#separation {
+    margin-left: 15%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.Instagram {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    float:right;
+}
+.BrookLogo {
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.crédit {
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 0.8vw;
+
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+#valider {
+    text-align: center;
+    margin-bottom: 1%;
+}
+#message {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+@media screen and (max-width: 767px)
+{
+    .imgCompétence {
+        display: flex;
+        flex-flow: wrap;
+        margin-top: 3%;
+
+    }
+
+    footer #separation {
+        display: none;
+    }
+
+    .Instagram {
+        margin-bottom: 1%;
+        margin-left: 1%;
+        float:right;
+    }
+    .crédit {
+        display: none;
+    }
+    p {
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 1024px)
+{
+
+    footer #separation {
+        display: none;
+    }
+
+    .crédit {
+        display: none;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+}
