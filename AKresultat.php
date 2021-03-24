@@ -21,7 +21,7 @@
     d'une durée de  <?php echo $_POST['select']?>.</br>
    information supplémentaire :<?php echo $_POST['message']?> </p></br>
   <p>  je vous remercie pour votre retour , vous serez recontacter via l'adresse mail <?php echo $_POST['email']?> fourni dans le formulaire.</br>
-    Merci de me faire confiance pour votre demande, bonne fin de journée</p></br>
+    Merci de me faire confiance pour votre demande, bonne fin de journée.</p></br>
 </section>
 
 <?php include "./AKfooter2.php"?>
