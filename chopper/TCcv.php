@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curriculum Vitae | Tony Tony Chopper</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="../style.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 </head>
 <body>
-    <?php include "./TCnavbar.php"?>
+    <?php include "./TCnavbar.php" ?>
     <header>
         <div id="my-id">
         </div>
         <h2 id = "Présentation"></h2>
         <div class="uk-child-width-1-2@s uk-light" uk-grid>
             <div>
-                <div class="uk-background-top-right uk-background-cover uk-height-medium  uk-visible@s" style="background-image: url(./assets/chopper/chopper15.gif);">
+                <div class="uk-background-top-right uk-background-cover uk-height-medium  uk-visible@s" style="background-image: url(../assets/chopper/chopper15.gif);">
                 </div>
             </div>
             <div>
-                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center  uk-visible@s" style="background-image: url(./assets/chopper/chopper17.jpg);">
+                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center  uk-visible@s" style="background-image: url(../assets/chopper/chopper17.jpg);">
                 </div>
             </div>
             <div>
-                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center uk-hidden@s " style="background-image: url(./assets/chopper/chopper17.jpg);">
+                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center uk-hidden@s " style="background-image: url(../assets/chopper/chopper17.jpg);">
                 </div>
             </div>
             <script>
@@ -56,16 +56,16 @@
             <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                        <img src="./assets/chopper/chopper14.gif">
+                        <img src="../assets/chopper/chopper14.gif">
                     </div>
                 </div>
                 <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-                    <img src="./assets/chopper/choppercompetences.png">
+                    <img src="../assets/chopper/choppercompetences.png">
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-default  uk-hidden@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                    <img src="./assets/chopper/choppercompetences.png">
+                    <img src="../assets/chopper/choppercompetences.png">
                 </div>
             </div>
 
@@ -77,7 +77,7 @@
         </section>
 
         <section class ="Contact uk-visible@s">
-            <img src="./assets/chopper/chopper13.jpg"/>
+            <img src="../assets/chopper/chopper13.jpg"/>
             <p>
                 "Un Docteur, un Docteur, ah oui c'est moi!"
             </p>
@@ -85,7 +85,7 @@
 
     </main>
 
-    <?php include "./footer.php"?>
+    <?php include "./footer.php" ?>
 
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>

@@ -8,7 +8,7 @@
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="./cvFranky.php">Franky</a></li>
                         <li><a href="AKBrook.php">Brook</a></li>
-                        <li><a href="TCcv.php">Chopper</a></li>
+                        <li><a href="./chopper/TCcv.php">Chopper</a></li>
                     </ul>
                 </div>
             </li>
@@ -33,7 +33,7 @@
                             <a href="./contact.php">Contact</a>
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="TCcv.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
+                        <li><a href="./chopper/TCcv.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
                         <li><a href="./cvFranky.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
                         <li><a href="./AKBrook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
                     </ul>

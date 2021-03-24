@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 </head>
 
 <body>
-<?php include "./TCnavbar.php"?>
+<?php include "./TCnavbar.php" ?>
 <section id = contact>
-    <form action = "./TCresultat.php" method = "POST">
+    <form action = "TCresultat.php" method = "POST">
         <fieldset class="uk-fieldset">
             <legend class="uk-legend ">Contactez moi :</legend>
 
@@ -48,7 +48,7 @@
     </form>
 </section>
 
-<?php include "./footer.php"?>
+<?php include "./footer.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
