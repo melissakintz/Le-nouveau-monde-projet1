@@ -17,8 +17,8 @@
      font-style:italic;
   }
 
-  h1, h2, p {
-    font-family:One;
+h1, h2 {
+    font-family: One;
 }
 .Presentation {
     text-align: center;
