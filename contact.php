@@ -24,24 +24,19 @@
                 <input class="uk-input" type="email" placeholder="Votre email" name="email" required >
             </div>
             <div class="uk-margin">
-                <label>Le métier rechercher :</label>
-                <select class="uk-select">
-                    <option name="musique">Musique</option>
-                    <option name="medecin">Médecine</option>
-                    <option name="charpente">Charpente</option>
-                    <option name="chasseur">Chasseur de prime</option>
-                    <option name="archeologue">Archéologue</option>
-                    <option name="cuisinier">Cuisinier</option>
-                    <option name="navigateur">Navigateur</option>
-                    <option name="groupe">Groupe au choix</option>
-                    <option></option>
+                <label>Le type de probléme rencontré :</label>
+                <select class="uk-select" id ="select" name="select">
+                    <option name="meurtre">Meurtre</option>
+                    <option name="trahison">Trahison</option>
+                    <option name="desertion">Désertion</option>
+                    <option name="degradation">Dégradation</option>
+                    <option name="mutinerie">mutinerie</option>
+                    <option name="vole">vole</option>
+                    <option name="autre">autre :</option>
                 </select>
             </div>
             <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="Le ou les metiers que vous avez choisi" name="metiers">
-            </div>
-            <div class="uk-margin">
-                <input class="uk-input" type="number" placeholder="votre budget" name="budget">
+                <input class="uk-input" type="text" placeholder="raison a décrire" name="raison" >
             </div>
             <div class="uk-margin">
                 <label>Des indications particulières ?</label>
