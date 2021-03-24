@@ -13,7 +13,7 @@
         <?php include "./AKheader.php"?>
         <main>
 <section class = "Biographie">    
-   <h2 id = "Biographie">Biographie</h2> 
+   <h2 id = "Biographie">• Biographie</h2> 
 <p>Il y a fort longtemps  j'étais  le leader d'une troupe de gade royaux d'un certain royame de West Blue.</br>
 Par la suite j'ai décider de rejoindre l'équipage des Rumbar Pirates en tant que Second.</br>
 J'ai finalement fini par trouvé un fruit du démon quel ne fut pas mon désarroie quand je me suis rendu compte qu'absolument rien n'avait changer aprés l'avoir manger ...</br> a part le fait que je ne puisse plus nager, 
@@ -35,7 +35,7 @@ mais ce ne fut qu'une bref période avant de repartir a la recherche du trésors
 </section>
 <section class = "Compétence">
 
-<h2 id = "Compétence">Mes Compétences</h2>
+<h2 id = "Compétence">• Mes Compétences</h2>
 <p>Le style de combat de Brook est un mélange d'escrime Française et de combat des Samouraïs.</br>
 Mon âme a également un pouvoir sur la musique ce qui lui a permis de séduire des millions de fans dans le monde entier.</br>
 Je sais aussi d'imprégner mon épée du froid glacial du royaume des morts, ce qui en fait une arme redoutable.</br>
@@ -60,7 +60,7 @@ Je sais aussi d'imprégner mon épée du froid glacial du royaume des morts, ce 
 </section>
 
 <section class = "Personnalité">
-<h2 id = "Personnalité"> Ma Personnalité</h2>
+<h2 id = "Personnalité">• Ma Personnalité</h2>
 <p>Brook a toujours une joie de vivre (on peux dire ça pour lui ?) Et un humour plus ou moins mauvais tournant autour du fait qu'il est mort et qu'il est un squelette.</br>
 
 Il a egalement une passion dont on ne connaît pas la raison, pour les culottes.</br>

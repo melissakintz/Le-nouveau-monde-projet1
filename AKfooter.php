@@ -11,7 +11,7 @@
 <p>Le Site est édité par la société du nouveau monde, SAS au capital de 89.857.930 Berry</p>
 <p>dont le siège social est situé sur  l'île de Yukiryu. </p>
     </section>
-    <div class = "Instagram">
-    <a href="https://www.instagram.com/onepiece_staff/?hl=fr"><img src="./AKassets/instalogo.png" width="40vw"/></a>
-    </div>
+   <div class = "Instagram">
+       <a href="https://www.instagram.com/brook.onepiece/?hl=fr" uk-icon="icon: instagram" target=_blank"></a>
+   </div>
 </footer>

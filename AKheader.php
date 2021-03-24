@@ -22,8 +22,6 @@
 </script>
 </div>
 <section class = "Presentation">
-    <h2>Brook le fredonneur</h2>
-    <h2> Epeiste et Musicien</h2>
-    <h2> 90 ans </h2>
+<h2> • Brook le fredonneur • Epeiste et Musicien • 90 ans  </h2>
 </section>
 </header>
