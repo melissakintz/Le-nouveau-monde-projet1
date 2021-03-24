@@ -6,7 +6,6 @@
         <title>Curiculum Vitae de Brook</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="AKstyle.css" type="text/css">
     </head>
 
     <body>
@@ -45,16 +44,16 @@ Je sais aussi imprégner mon épée du froid glacial du royaume des morts, ce qu
 <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
    <div>
       <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-            <img src="./Akassets/brook.gif ">
+            <img src="./assets/brook/brook.gif ">
       </div>
    </div>
       <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-            <img src="./Akassets/Diagramme.png">
+            <img src="./assets/brook/Diagramme.png">
       </div>
    </div>
    <div>
     <div class="uk-card uk-card-default  uk-hidden@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-          <img src="./Akassets/Diagramme.png ">
+          <img src="./assets/brook/Diagramme.png ">
     </div>
  </div>
 
@@ -68,11 +67,11 @@ CEO of joke about squeletton.
 </section>
 
 <section class ="Contact uk-visible@s">
-<img src="./AKassets/contactme.png"/>
+<img src="./assets/brook/contactme.png"/>
 <p> Aurais-tu l'extrême amabilité de me montrer ta culotte !?</br>
 AHHH non pas ma couronne !?#! </p>
 <section id = "bateau"> 
-<img src="./Akassets/bateau.png">
+<img src="./assets/brook/bateau.png">
 </section>
 </section>
 

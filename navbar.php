@@ -35,7 +35,7 @@
                         <li class="uk-nav-header">Curriculum Vitae</li>
                         <li><a href="./tony.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
                         <li><a href="./cvFranky.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
-                        <li><a href="./AKbook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
+                        <li><a href="./AKBrook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
                     </ul>
 
                 </div>

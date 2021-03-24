@@ -10,7 +10,7 @@
                 <div class="uk-navbar-dropdown">
                      <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="./AKBrook.php">Franky</a></li>
-                        <li><a href="#">Chopper</a></li>
+                        <li><a href="./tony.php">Chopper</a></li>
                      </ul>
                 </div>
             </li>
@@ -38,16 +38,11 @@
                         <li><a href="./AKbook.php"><span class="uk-margin-small-right" ></span>Le Book de Brook</a></li> 
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Chopper</a></li>
+                        <li><a href="./tony.php"><span class="uk-margin-small-right" ></span>Chopper</a></li>
                         <li><a href="#"><span class="uk-margin-small-right" ></span>Franky</a></li>
                     </ul>
-                    
-                    
-
                 </div>
             </div>
-
-
         </a>
     </div>
 </nav>
