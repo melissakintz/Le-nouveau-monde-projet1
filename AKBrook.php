@@ -38,7 +38,7 @@ mais ce ne fut qu'une bref période avant de repartir à la recherche du trésor
 <h2 id = "Compétence">• Mes Compétences</h2>
 <p>Le style de combat que j'utilise est un mélange d'escrime Française et de techniques de combat Samouraïs.</br>
 Mon âme a également un pouvoir sur la musique ce qui lui a permis de séduire des millions de fans dans le monde entier.</br>
-Je sais aussi imprégner mon épée du froid glacial du royaume des morts, ce qui en fait une arme redoutable.</br>
+    Je sais aussi imprégner mon épée du froid glacial du royaume des morts, ce qui en fait une arme redoutable.</br></p>
 </section>
 <section class = "imgCompétence">  
 <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>

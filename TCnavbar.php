@@ -8,12 +8,22 @@
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="./cvFranky.php">Franky</a></li>
                         <li><a href="AKBrook.php">Brook</a></li>
-                        <li><a href="TCcv.php">Chopper</a></li>
                     </ul>
                 </div>
             </li>
-            <li><a href="./contact.php">Contact</a></li>
-            <li><a href="./agenda.php">Agenda</a></li>
+            <li>
+                <a href="./TCcv.php">Chopper</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="#Présentation"><span class="uk-margin-small-right" ></span>Présentation</a></li>
+                        <li><a href="#Biographie"><span class="uk-margin-small-right" ></span>Biographie</a></li>
+                        <li><a href="#Compétence"><span class="uk-margin-small-right" ></span>Compétences</a></li>
+                        <li><a href="#Personnalité  "><span class="uk-margin-small-right" ></span>Personnalité</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="./TCcontact.php">Contacte moi</a></li>
+
         </ul>
     </div>
 
@@ -28,12 +38,19 @@
 
                     <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
                         <li class="uk-active"><a href="./index.php">Accueil</a></li>
+
+
+                        <li class="uk-nav-header"><a href="./TCcv.php">Chopper</a></li>
+                                <li><a href="#Présentation"><span class="uk-margin-small-right" ></span>Présentation</a></li>
+                                <li><a href="#Biographie"><span class="uk-margin-small-right" ></span>Biographie</a></li>
+                                <li><a href="#Compétence"><span class="uk-margin-small-right" ></span>Compétences</a></li>
+                                <li><a href="#Personnalité  "><span class="uk-margin-small-right" ></span>Personnalité</a></li>
+                            </li>
+
                         <li class="uk-parent">
-                            <a href="#">Agenda</a>
-                            <a href="./contact.php">Contact</a>
+                            <a href="./TCcontact.php">Contact</a>
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="TCcv.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
                         <li><a href="./cvFranky.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
                         <li><a href="./AKBrook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
                     </ul>

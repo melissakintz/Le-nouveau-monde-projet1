@@ -22,7 +22,7 @@
     </div>
     <div class="uk-card uk-card-default uk-card-body uk-margin-left">
         <div class="uk-card-media-top">
-            <a href="./tony.php"><img src="./assets/chopper.png" alt="Chopper"/>
+            <a href="TCcv.php"><img src="./assets/chopper.png" alt="Chopper"/>
         </div>
         <div class="uk-card-body">
             <p class="uk-card-title">Chopper</p>

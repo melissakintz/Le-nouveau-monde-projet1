@@ -9,7 +9,7 @@
                 <div class="uk-navbar-dropdown">
                      <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="./AKBrook.php">Franky</a></li>
-                        <li><a href="./tony.php">Chopper</a></li>
+                        <li><a href="TCcv.php">Chopper</a></li>
                      </ul>
                 </div>
             </li>
@@ -30,7 +30,7 @@
                             <a href="./Akcontact.php">Contact</a>
                             <a href="./AkBrook.php">Retour</a>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="./tony.php"><span class="uk-margin-small-right" ></span>Franky</a></li>
+                        <li><a href="TCcv.php"><span class="uk-margin-small-right" ></span>Franky</a></li>
                         <li><a href="#"><span class="uk-margin-small-right" ></span>Chopper</a></li>
                     </ul>
                     

@@ -2,17 +2,14 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curriculum Vitae | Tony Tony Chopper</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="cv.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 </head>
 <body>
-    <?php include "./navbar.php"?>
-<!--<?php //include "#"?> navbar-->
+    <?php include "./TCnavbar.php"?>
     <header>
         <div id="my-id">
         </div>
@@ -63,7 +60,7 @@
                     </div>
                 </div>
                 <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-                    <img src="./assets/chopper/chopper14.gif.">
+                    <img src="./assets/chopper/choppercompetences.png">
                 </div>
             </div>
             <div>
