@@ -8,37 +8,37 @@
         <legend class="uk-legend ">Contactez nous :</legend>
 
         <div class="uk-margin">
-            <input class="uk-input" type="text" placeholder="Nom de votre équipage">
+            <input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
         </div>
         <div class="uk-margin">
-    <input class="uk-input" type="text" placeholder="Nom Prénom">
+    <input required class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom">
         </div>
         <div class="uk-margin">
-    <input class="uk-input" type="email" placeholder="Votre email">
+    <input class="uk-input" type="email" placeholder="Votre email" name="email" required >
         </div>
         <div class="uk-margin">
             <label>Le métier rechercher :</label>
             <select class="uk-select">
-                <option>Musique</option>
-                <option>Médecine</option>
-                <option>Charpente</option>
-                <option>Chasseur de prime</option>
-                <option>Archéologue</option>
-                <option>Cuisinier</option>
-                <option>Navigateur</option>
-                <option>Groupe au choix</option>
+                <option name="musique">Musique</option>
+                <option name="medecin">Médecine</option>
+                <option name="charpente">Charpente</option>
+                <option name="chasseur">Chasseur de prime</option>
+                <option name="archeologue">Archéologue</option>
+                <option name="cuisinier">Cuisinier</option>
+                <option name="navigateur">Navigateur</option>
+                <option name="groupe">Groupe au choix</option>
                 <option></option>
             </select>
         </div>
         <div class="uk-margin">
-    <input class="uk-input" type="text" placeholder="Le ou les metiers que vous avez choisi">
+    <input class="uk-input" type="text" placeholder="Le ou les metiers que vous avez choisi" name="metiers">
         </div>
         <div class="uk-margin">
-<input class="uk-input" type="number" placeholder="votre budget">
+<input class="uk-input" type="number" placeholder="votre budget" name="budget">
     </div>
         <div class="uk-margin">
         <label>Des indications particulières ?</label>
-            <textarea class="uk-textarea" rows="5" placeholder="votre message"></textarea>
+            <textarea class="uk-textarea" rows="5" placeholder="votre message" name="message"></textarea>
         </div>
         <div id = "valider">
          <input class = "uk-button uk-button-default " type = "submit" value = "valider">
