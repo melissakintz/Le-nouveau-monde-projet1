@@ -13,7 +13,7 @@
 <?php include "./AKnavbar3.php"?>
 
 <section id = "message">
-    <p> Yohohoho Mais qui voila ? ne serais ce pas , <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, </br> Merci de m'avoir contacter, je vais étudier votre requête dans les plus bref délais ,</br> merci de bien vouloir patienté jusqu'a mon retour par mail.</br>
+    <p> Yohohoho Mais qui voila ?? ne serais ce pas , <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, </br> Merci de m'avoir contacter, je vais étudier votre requête dans les plus bref délais ,</br> merci de bien vouloir patienté jusqu'a mon retour par mail.</br>
    </p>
 </br>
     <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?> vous a fait la demande suivante :</br>
