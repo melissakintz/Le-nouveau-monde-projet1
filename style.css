@@ -27,6 +27,15 @@
         padding-top: 5vw;
         padding-bottom: 2vw;
     }
+.crédit {
+   text-align: center;
+}
+
+#Facebook #Instagram {
+ float: right;
+ margin-bottom: 2%;
+ margin-right: 2%;  
+}
 
 
 
