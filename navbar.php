@@ -12,10 +12,11 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="./contact.php">Contact</a></li>
             <li><a href="#">Agenda</a></li>
         </ul>
     </div>
+
 </nav>
 
 <nav class="uk-navbar uk-navbar-container uk-margin uk-hidden@s"  uk-offcanvas>
