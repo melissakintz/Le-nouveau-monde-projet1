@@ -30,7 +30,7 @@
                         <li class="uk-active"><a href="./index.php">Accueil</a></li>
                         <li class="uk-parent">
                             <a href="#">Agenda</a>
-                            <a href="#">Contact</a>
+                            <a href="./contact.php">Contact</a>
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
                         <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
