@@ -55,12 +55,18 @@
 
 #contact {
    margin-top: 2%;
+    padding-right: 15vw;
+    padding-left: 15vw;
 }
 
 #fond {
    background-color: gray;
    height: 50%;
    width:50%;
+}
+
+#message {
+    text-align: center;
 }
 
 
