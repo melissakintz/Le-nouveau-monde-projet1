@@ -20,11 +20,11 @@
                 </div>
             </div>
             <div>
-                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center  uk-visible@s" style="background-image: url(../assets/chopper/chopper17.jpg);">
+                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center  uk-visible@s" style="background-image: url(../assets/chopper/chopper12.gif);">
                 </div>
             </div>
             <div>
-                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center uk-hidden@s " style="background-image: url(../assets/chopper/chopper17.jpg);">
+                <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center uk-hidden@s " style="background-image: url(../assets/chopper/chopper12.gif);">
                 </div>
             </div>
             <script>
@@ -42,8 +42,8 @@
         <section class = "Biographie">
             <h2 id = "Biographie">• Biographie</h2>
             <p>
-                Je suis un renne mais après avoir mangé le Hito Hito no Mi je peux de me transformer en humain.  On me considère comme l’animal de compagnie de l’équipage… Mais je suis un très bon docteur. D’ailleurs je suis le docteur l'Équipage du Chapeau de Paille.<br/>
-                Je viens de l'Île de Drum, et je suis le premier membre de l'équipage du Chapeau de Paille à être né sur La Route de tous les Périls.
+                Je  suis le docteur de l'Équipage du Chapeau de Paille. En principe, je suis un renne mais après avoir  mangé le Hito Hito no Mi, j’ai pu me transformer en humain. Je suis originaire de l’ile de Drum. La Marine me considère comme l'Animal de Compagnie de l’équipage mais je suis un très bon docteur.
+
             </p>
         </section>
         <section class = "Compétence">
@@ -73,7 +73,13 @@
 
         <section class = "Personnalité">
             <h2 id = "Personnalité">• Ma Personnalité</h2>
-            <p>Je suis très altruiste, en effet en plus d'être gentil, j'aime aider les autres. J'adore être complimenté... même si je ne l'avoue pas.</p>
+            <p>
+                Je très attentionné et gentil. Je n'hésite jamais à aider les personnes dans le besoin. Ca explique surement que je sois devenu médecin.
+                J’adore les compliments même si je ne l’avouerai pas.
+                Je m’émerveille facilement mais j’ai aussi la larme facile… <br/>
+                Je suis plutôt timide, surtout envers les humains inconnus. Et je suis facilement impressionner par toute sortes de choses, mais quand j’ai une mission, je vais tout mettre en oeuvre pour l’accomplir.
+                Je souhaite plus que tout devenir le médecin qui guérira toutes les maladies. Et je mets un point d’honneur à défendre mes patients et à faire mon possible pour les guérir. Je m’énerve facilement si on ne respecte pas mes patients comme il se doit!
+            </p>
         </section>
 
         <section class ="Contact uk-visible@s">
@@ -85,7 +91,7 @@
 
     </main>
 
-    <?php include "./footer.php" ?>
+    <?php include "../footer.php" ?>
 
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
