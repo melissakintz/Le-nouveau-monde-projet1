@@ -10,10 +10,10 @@
 <p>dont le siège social est situé sur  l'île de Yukiryu. </p>
     </section>
     <div class = "Instagram">
-    <a href="https://www.instagram.com/onepiece_staff/?hl=fr"><img src="./AKassets/instalogo.png" width="40vw"/></a>
+    <a href="https://www.instagram.com/onepiece_staff/?hl=fr" uk-icon="icon: instagram" target=_blank"></a>
     </div>
     <div class = "Facebook">
-<a href="https://www.facebook.com/onepieceofficial/"><img src="./AKassets/facebooklogo.png" width="40vw"/></a>
+<a href="https://www.facebook.com/onepieceofficial/" uk-icon="icon: facebook" target=_blank"></a>
 </div>
 </footer>
 
