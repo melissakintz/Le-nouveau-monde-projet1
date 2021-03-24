@@ -69,7 +69,51 @@
 
 #message {
     text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
+#agenda {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   width: 60%;
+   height: 60%;
+   text-align: center;
+}
+@media screen and (max-width: 767px)
+{
+ h1, h2, p {
+    font-size: 5vw;
+}
+ footer #separation {
+    display: none;
+}
+
+.Instagram {
+    margin-bottom: 1%;
+    margin-left: 1%;
+    float:right;
+}
+.crédit {
+    display: none;
+}
+}   
+@media screen and (max-width: 1024px)
+{
+h1, h2,p {
+    font-size: 3vw;
+}
+footer #separation {
+   display: none;
+}
+
+.crédit {
+   display: none;
+}
+
+
+}
 
 
