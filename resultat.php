@@ -18,7 +18,7 @@
  
     <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?> a fait la demande suivante :</br>
     suite ou pendant le contrat a rencontrer le probléme suivant <?php echo $_POST['select']?>
-     <?php echo $_POST['raison']?></br>
+     <?php echo $_POST['raison']?>.</br>
    information supplémentaire :<?php echo $_POST['message']?> </p></br>
     Nous vous remercions pour votre retour , vous serez recontacter via l'adresse mail <?php echo $_POST['email']?> fourni dans le formulaire.</br>
     Merci de nous faire confiance pour votre demande, bonne fin de journée</p></br>
