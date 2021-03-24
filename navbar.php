@@ -13,7 +13,7 @@
                 </div>
             </li>
             <li><a href="./contact.php">Contact</a></li>
-            <li><a href="#">Agenda</a></li>
+            <li><a href="./agenda.php">Agenda</a></li>
         </ul>
     </div>
 
