@@ -19,6 +19,12 @@
 
 h1, h2 {
     font-family: One;
+    font-size: 3vw;
+}
+p {
+    font-size: 2vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
 }
 .Presentation {
     text-align:center;
@@ -28,7 +34,6 @@ h1, h2 {
 .Biographie {
     margin-top: 5%;
     text-align: center;
-    font-size: 1.5vw;
 }
 
 .Compétence {
@@ -105,9 +110,7 @@ h1, h2 {
         margin-top: 3%;
 
     }
-    h1, h2, p {
-        font-size: 5vw;
-    }
+
     footer #separation {
         display: none;
     }
@@ -120,12 +123,13 @@ h1, h2 {
     .crédit {
         display: none;
     }
+    p {
+        font-size: 2vw;
+    }
 }
 @media screen and (max-width: 1024px)
 {
-    h1, h2,p {
-        font-size: 3vw;
-    }
+
     footer #separation {
         display: none;
     }
@@ -134,5 +138,7 @@ h1, h2 {
         display: none;
     }
 
-
+    p {
+        font-size: 2vw;
+    }
 }
