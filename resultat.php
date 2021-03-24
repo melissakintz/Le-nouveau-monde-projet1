@@ -13,15 +13,15 @@
 <?php include "./navbar.php"?>
 
 <section id = "message">
-    <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,</br> nous avons bien recu votre demande, elle  sera traité sous peu par l'un des membres de notre équipage,</br> merci de bien vouloir patienté jusqu'a notre retour par mail.</br>
+    <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,</br> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,</br> merci de bien vouloir patienter jusqu'à notre retour par mail.</br>
    </p>
 </br>
     <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?> a fait la demande suivante :</br>
-    suite ou pendant le contrat a rencontrer le probléme suivant <?php echo $_POST['select']?>
+    suite ou pendant le contrat à rencontré le probléme suivant <?php echo $_POST['select']?>
      <?php echo $_POST['raison']?>.</br>
    information supplémentaire :<?php echo $_POST['message']?> </p></br>
-  <p>  Nous vous remercions pour votre retour , vous serez recontacter via l'adresse mail <?php echo $_POST['email']?> fourni dans le formulaire.</br>
-    Merci de nous faire confiance pour votre demande, bonne fin de journée</p></br>
+  <p>  Nous vous remercions pour votre retour , vous serez recontacté via l'adresse mail <?php echo $_POST['email']?> fourni dans le formulaire.</br>
+    Merci de nous faire confiance pour votre demande, bonne fin de journée.</p></br>
 </section>
 
 <?php include "./footer.php"?>
