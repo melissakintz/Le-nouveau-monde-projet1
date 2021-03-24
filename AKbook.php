@@ -43,7 +43,7 @@
         <div class="uk-card uk-card-hover uk-card-body">
         <img src="./Akassets/brook musique.gif ">
     <p>Le Soul King Brook World Tour s'est 
-        achevé hier sur l'archiped Sabaody </br>
+        achevé hier sur l'archipel Sabaody </br>
     de facon aussi soudaine qu'incroyable 
 laissant les quelques 6xxx spectateurs venus acclamer la superstar 
 internationale de la Soul Music dans un mélange de désarroi, de colère et d'applaudissements.
