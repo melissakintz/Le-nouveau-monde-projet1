@@ -48,7 +48,7 @@
     </form>
 </section>
 
-<?php include "./footer.php" ?>
+<?php include "../footer.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
