@@ -13,15 +13,15 @@
             <legend class="uk-legend ">Contactez nous :</legend>
 
             <div class="uk-margin">
-                <input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
+                <input  class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
             </div>
 
             <div class="uk-margin">
-                <input required class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom">
+                <input class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom" >
             </div>
 
             <div class="uk-margin">
-                <input class="uk-input" type="email" placeholder="Votre email" name="email" required >
+                <input class="uk-input" type="email" placeholder="Votre email" name="email"  >
             </div>
             <div class="uk-margin">
                 <label>Durée :</label>
@@ -57,14 +57,3 @@
 
 </body>
 <?php
-if ($_POST){
-    if($_POST['equipage']!='' && $_POST['nomPrenom']!='' && $_POST['email']!='' && $_POST['select']!='' && $_POST['raison']!='' && $_POST['message']!=''){
-        if ($_POST['email'] && filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){ 
-        }else{
-            echo '<h3 class="uk-alert-danger">merci de remplir correctement votre email </h3>';
-            }
-        }else{
-        echo '<h3 class="uk-alert-danger">merci de remplir correctement tous les champs </h3>';
-        }
-    }
-?>
