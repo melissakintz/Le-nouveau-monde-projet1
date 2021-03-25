@@ -4,43 +4,36 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../global/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
-    <title>Contacte moi | Tony Tony Chopper</title>
+    <title>Contactez moi | Tony Tony Chopper</title>
 </head>
 
 <body>
     <?php include "./TCnavbar.php" ?>
-    <section id = contact>
+    <section id = "contact">
         <form action = "TCresultat.php" method = "POST">
             <fieldset class="uk-fieldset">
                 <legend class="uk-legend ">Contactez moi :</legend>
 
                 <div class="uk-margin">
-                    <input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
-                </div>
+                    <input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage"> <br/>
+                    <input required class="uk-input" type="text" placeholder="Nom" name="nom">
+                    <input required class="uk-input" type="text" placeholder="Prenom" name="prenom"><br/>
+                    <input class="uk-input" type="email" placeholder="email" name="email" required ><br/>
 
-                <div class="uk-margin">
-                    <input required class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom">
-                </div>
+                    <p>
+                        <label for="select"">Durée :</label>
+                        <select required class="uk-select" id ="select" name="select">
+                            <option name="day">entre 1 et 7 jours</option>
+                            <option name="week">entre 2 et 3 semaines</option>
+                            <option name="month">1 mois</option>
+                            <option name="month1">2 à 3 mois </option>
+                            <option name="month2">4 à 5 mois </option>
+                            <option name="month3">6 à 8 mois </option>
+                            <option name="year">1 an </option>
+                        </select>
+                    </p>
 
-                <div class="uk-margin">
-                    <input class="uk-input" type="email" placeholder="Votre email" name="email" required >
-                </div>
-                <div class="uk-margin">
-                    <label>Durée :</label>
-                    <select required class="uk-select" id ="select" name="select">
-                        <option name="day">1 jour</option>
-                        <option name="day1">3 jours</option>
-                        <option name="day2">7 jours</option>
-                        <option name="day3">14 jours</option>
-                        <option name="day4">1 mois </option>
-                        <option name="day5">3 mois </option>
-                        <option name="day6">6 mois </option>
-                        <option name="day7">1 an </option>
-                    </select>
-                </div>
-                <label>Type d'offre :</label>
-                <div class="uk-margin">
-                    <label>Merci de décrire votre offre : </label>
+                    <label for="message">Merci de décrire votre offre : </label>
                     <textarea required class="uk-textarea" rows="5" placeholder="Description de l'offre" name="message"></textarea>
                 </div>
                 <div id = "valider">

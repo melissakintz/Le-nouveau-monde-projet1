@@ -10,7 +10,7 @@
 <section id = contact>
     <form action = "./AKresultat.php" method = "POST">
         <fieldset class="uk-fieldset">
-            <legend class="uk-legend ">Contactez nous :</legend>
+            <legend class="uk-legend ">Contactez moi :</legend>
 
             <div class="uk-margin">
                 <input  class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
@@ -56,4 +56,4 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
 </body>
-<?php
+
