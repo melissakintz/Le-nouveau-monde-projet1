@@ -40,4 +40,3 @@ if ($_POST['email'] && filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
 </body>
-
