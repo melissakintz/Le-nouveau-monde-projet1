@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <title>Contact</title>
 </head>
 
 
@@ -18,16 +19,16 @@ if (isset($_POST['equipage']) && $_POST['equipage'] != ' '){
     if (isset($_POST['nomPrenom']) && $_POST['nomPrenom']){
         if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
             if (isset($_POST['select'])) {
-                if (isset($_POST['raison']) && $_POST['raison']){ ?>
+                if (isset($_POST['raison']) && $_POST['raison'] != " "){ ?>
                     <section id = "message">
-                            <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,</br> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,</br> merci de bien vouloir patienter jusqu'à notre retour par mail.</br>
+                            <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,<br/> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,<br/> merci de bien vouloir patienter jusqu'à notre retour par mail.<br/>
                             </p>
-                            </br>
-                            <p> <?php echo htmlentities($_POST['nomPrenom'])?> de <?php echo htmlentities($_POST['equipage'])?> a fait la demande suivante :</br>
+                            <br/>
+                            <p> <?php echo htmlentities($_POST['nomPrenom'])?> de <?php echo htmlentities($_POST['equipage'])?> a fait la demande suivante :<br/>
                                 suite ou pendant le contrat à rencontré le probléme suivant <?php echo htmlentities($_POST['select'])?>
-                                <?php echo htmlentities($_POST['raison'])?>.</br>
-                                information supplémentaire :<?php echo htmlentities($_POST['message'])?> </p></br>
-                            <p>  Nous vous remercions pour votre retour , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> fourni dans le formulaire.</br>
+                                <?php echo htmlentities($_POST['raison'])?>.<br/>
+                                information supplémentaire :<?php echo htmlentities($_POST['message'])?> </p><br/>
+                            <p>  Nous vous remercions pour votre retour , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> fourni dans le formulaire.<br/>
                                 Merci de nous faire confiance pour votre demande, bonne fin de journée.</p>
                     </section>
 <?php
