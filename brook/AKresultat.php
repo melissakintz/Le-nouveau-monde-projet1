@@ -20,7 +20,7 @@ if ($_POST['email'] && filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
     echo  '' . $_POST['nomPrenom'] . ' de ' . $_POST['equipage'] . ' vous a fait la demande suivante '.  ': </br>';
     echo 'seriez vous intérésser par une offre concernant vos capacités de  ' . $_POST['raison'] . '  pour une durée de : ' . $_POST['select']. '';
     echo '</br>';
-    echo 'information supplémentaire : ' . $_POST['raison'] . ' '.  ' </br>';
+    echo 'information supplémentaire : ' . $_POST['raison'] . '</br>'. $_POST['message'] . ' '.  ' </br>';
     echo '</br>';
     echo ' je vous remercie pour votre retour , vous serez recontacter via l adresse mail ' . $_POST['email'] .'    fourni dans le formulaire. </br> 
             Merci de me faire confiance pour votre demande, bonne fin de journée.</p>' ;

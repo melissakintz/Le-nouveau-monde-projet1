@@ -26,14 +26,14 @@
             <div class="uk-margin">
                 <label>Durée :</label>
                 <select class="uk-select" id ="select" name="select">
-                    <option name="day">1 jours</option>
-                    <option name="day1">3 jours</option>
-                    <option name="day2">7 jours</option>
-                    <option name="day3">14 jours</option>
-                    <option name="day4">1 mois </option>
-                    <option name="day5">3 mois </option>
-                    <option name="day6">6 mois </option>
-                    <option name="day7">1 ans </option>
+                    <option name="day">1 à 3 jours</option>
+                    <option name="day1">3 à 7 jours</option>
+                    <option name="day2">7 à 14 jours</option>
+                    <option name="day3">14 jours à 1 mois </option>
+                    <option name="day4">1 mois à 3 mois </option>
+                    <option name="day5">3 mois à 6 mois </option>
+                    <option name="day6">6 mois à 1 ans </option>
+                    <option name="day7">1 an ou plus  </option>
                 </select>
             </div>
             <label>Type d'offre :</label>

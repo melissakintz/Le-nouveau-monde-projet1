@@ -19,7 +19,7 @@
                 if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
                     if (isset($_POST['select'])) {
                         if (isset($_POST['message']) && $_POST['message'] != " "){ ?>
-                            <section id = "message">
+                            <section id = "messages">
                                 <p>
                                     Je vous remercie pour votre proposition , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> de ma décision.<br/>
                                     Merci de me faire confiance pour votre demande, bonne fin de journée.<br/>
