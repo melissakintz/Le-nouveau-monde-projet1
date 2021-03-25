@@ -25,7 +25,7 @@
             </div>
             <div class="uk-margin">
                 <label>Le type de probléme rencontré :</label>
-                <select class="uk-select" id ="select" name="select">
+                <select required class="uk-select" id ="select" name="select">
                     <option name="meurtre">Meurtre</option>
                     <option name="trahison">Trahison</option>
                     <option name="desertion">Désertion</option>
@@ -36,7 +36,7 @@
                 </select>
             </div>
             <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="raison a décrire" name="raison" >
+                <input required class="uk-input" type="text" placeholder="raison a décrire" name="raison" >
             </div>
             <div class="uk-margin">
                 <label>Des indications particulières ?</label>
