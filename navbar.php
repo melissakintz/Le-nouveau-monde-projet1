@@ -6,7 +6,7 @@
                 <a href="#">Curriculum Vitae</a>
                 <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="./cvFranky.php">Franky</a></li>
+                        <li><a href="./franky.cv/cvFranky.php">Franky</a></li>
                         <li><a href="AKBrook.php">Brook</a></li>
                         <li><a href="./chopper/TCcv.php">Chopper</a></li>
                     </ul>
@@ -34,7 +34,7 @@
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
                         <li><a href="./chopper/TCcv.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span> Chopper</a></li>
-                        <li><a href="./cvFranky.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
+                        <li><a href="./franky.cv/cvFranky.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
                         <li><a href="./AKBrook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
                     </ul>
 
