@@ -1,15 +1,15 @@
 <nav class="uk-navbar-container; uk-visible@s" uk-navbar>
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav ">
-            <li class="uk-active"><a href="./index.php">Accueil</a></li>
+            <li class="uk-active"><a href="../global/index.php">Accueil</a></li>
             <li><a href="./Akcontact.php">Contact</a></li>
             <li><a href="./AkBrook.php">Retour</a></li>
             <li>
                 <a href="#">Curriculum Vitae</a>
                 <div class="uk-navbar-dropdown">
                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="./AKBrook.php">Franky</a></li>
-                        <li><a href="./chopper/TCcv.php">Chopper</a></li>
+                        <li><a href="../franky.cv/cvFranky.php">Franky</a></li>
+                        <li><a href="../chopper/TCcv.php">Chopper</a></li>
                      </ul>
                 </div>
             </li>
@@ -25,7 +25,7 @@
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
                     <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                        <li class="uk-active"><a href="./index.php">Accueil</a></li>
+                        <li class="uk-active"><a href="../global/index.php">Accueil</a></li>
                         <li class="uk-parent">
                             <a href="./Akcontact.php">Contact</a>
                             <a href="./AkBrook.php">Retour</a>

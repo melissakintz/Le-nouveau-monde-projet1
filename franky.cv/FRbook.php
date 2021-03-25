@@ -3,24 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Recrutez votre équipier | Le nouveau monde</title>
+        <title>Franky's Book</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="../global/style.css" type="text/css">
     </head>
 
     <body>
-        <?php include "./navbar.php"?>
-        <?php include "./header.php"?>
 
-        <div class ="introduction">
-            <p>N'hesitez pas à jeter un petit coup d'oeil aux trois favoris du mois.</p>
-        </div>
+    <?php include "./FRnavbar.php"?>
 
-        <?php include "./carte.php" ?>
+    <h1> Le Franky's Book est actuellement en construction, un peu de patience ça arrive.. </h1>
 
 
-        <?php include "./footer.php"?>
-
+    <?php include "../global/footer.php" ?>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
     </body>
+  

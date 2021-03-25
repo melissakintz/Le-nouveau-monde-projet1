@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../global/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 </head>
 
@@ -13,15 +13,15 @@
             <legend class="uk-legend ">Contactez nous :</legend>
 
             <div class="uk-margin">
-                <input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
+                <input  class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
             </div>
 
             <div class="uk-margin">
-                <input required class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom">
+                <input class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom" >
             </div>
 
             <div class="uk-margin">
-                <input class="uk-input" type="email" placeholder="Votre email" name="email" required >
+                <input class="uk-input" type="email" placeholder="Votre email" name="email"  >
             </div>
             <div class="uk-margin">
                 <label>Durée :</label>
@@ -51,8 +51,9 @@
     </form>
 </section>
 
-<?php include "./footer.php"?>
+<?php include "../global/footer.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
 </body>
+<?php

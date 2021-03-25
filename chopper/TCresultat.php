@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <link rel="stylesheet" href="../style.css" type="text/css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../global/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
     <title>Contacte moi | Tony Tony Chopper</title>
 </head>
@@ -9,51 +10,47 @@
 
 <body>
 
+    <?php
+    include "./TCnavbar.php";
 
-<?php
-include "./navbar.php";
-
-if (isset($_POST['equipage']) && $_POST['equipage'] != ' '){
-    if (isset($_POST['nomPrenom']) && $_POST['nomPrenom']){
-        if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-            if (isset($_POST['select'])) {
-                if (isset($_POST['message']) && $_POST['raison'] != " "){ ?>
-                    <section id = "message">
-                            <p> <?php echo $_POST['nomPrenom'] . ' de ' .  $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,<br/> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,<br/> merci de bien vouloir patienter jusqu'à notre retour par mail.<br/>
-                            </p>
-                            <br/>
+    if (isset($_POST['equipage']) && $_POST['equipage'] != ' '){
+        if (isset($_POST['nomPrenom']) && $_POST['nomPrenom']){
+            if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+                if (isset($_POST['select'])) {
+                    if (isset($_POST['message']) && $_POST['message'] != " "){ ?>
+                        <section id = "message">
+                            <p>
+                                Je vous remercie pour votre proposition , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> de ma décision.<br/>
+                                Merci de me faire confiance pour votre demande, bonne fin de journée.<br/>
+                            </p><br/>
                             <p> <?php echo htmlentities($_POST['nomPrenom']) . " de " . htmlentities($_POST['equipage'])?> a fait la demande suivante :<br/>
-                                suite ou pendant le contrat à rencontré le probléme suivant <?php echo htmlentities($_POST['select'])?>
-                                <?php echo htmlentities($_POST['raison'])?>.<br/>
-                                Informations supplémentaires :<?php echo htmlentities($_POST['message'])?> </p><br/>
-                            <p>  Nous vous remercions pour votre retour , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> fourni dans le formulaire.<br/>
-                                Merci de nous faire confiance pour votre demande, bonne fin de journée.</p>
-                    </section>
-<?php
-                } else {
-                    echo "Veuillez préciser une raison";
+                                Offre d'une durée de:  <?php echo htmlentities($_POST['select']). '<br/> Détails de la proposition : <br/>"' . htmlentities($_POST['message'])?>."<br/>
+                        </section>
+    <?php
+                    } else {
+                        echo "Veuillez préciser une raison";
+                    }
+                }else {
+                    echo "Veuillez choisir une durée";
                 }
             }else {
-                echo "Veuillez choisir une durée";
+                echo "Email non précisé ou invalide";
             }
         }else {
-            echo "Email non précisé ou invalide";
+            echo "Veuillez indiquer votre nom";
         }
-    }else {
-        echo "Veuillez indiquer votre nom";
+    } else {
+        echo "Veuillez préciser le nomde l'équipage";
     }
-} else {
-    echo "Veuillez préciser le nomde l'équipage";
-}
 
 
-include "./footer.php"
-?>
+    include "../global/footer.php"
+    ?>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
 </body>
 </html>

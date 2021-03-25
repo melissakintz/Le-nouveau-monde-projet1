@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curriculum Vitae | Tony Tony Chopper</title>
-    <link rel="stylesheet" href="../style.css" type="text/css"/>
+    <link rel="stylesheet" href="../global/style.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
 </head>
 <body>
@@ -77,7 +77,7 @@
                 Je très attentionné et gentil. Je n'hésite jamais à aider les personnes dans le besoin. Ca explique surement que je sois devenu médecin.
                 J’adore les compliments même si je ne l’avouerai pas.
                 Je m’émerveille facilement mais j’ai aussi la larme facile… <br/>
-                Je suis plutôt timide, surtout envers les humains inconnus. Et je suis facilement impressionner par toute sortes de choses, mais quand j’ai une mission, je vais tout mettre en oeuvre pour l’accomplir.
+                Je suis plutôt timide, surtout envers les humains inconnus. Et je suis facilement impressionné par toute sorte de choses, mais quand j’ai une mission, je vais tout mettre en oeuvre pour l’accomplir.
                 Je souhaite plus que tout devenir le médecin qui guérira toutes les maladies. Et je mets un point d’honneur à défendre mes patients et à faire mon possible pour les guérir. Je m’énerve facilement si on ne respecte pas mes patients comme il se doit!
             </p>
         </section>
@@ -91,7 +91,7 @@
 
     </main>
 
-    <?php include "../footer.php" ?>
+    <?php include "../global/footer.php" ?>
 
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
