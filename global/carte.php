@@ -2,7 +2,7 @@
 <div class="uk-flex uk-flex-center uk-flex-wrap-around uk-flex-wrap ">
     <div class="uk-card uk-card-default uk-card-body">
         <div class="uk-card-media-top">
-            <a href="./franky.cv/cvFranky.php"><img src="./assets/franky.png" alt="Franky"/>
+            <a href="../franky.cv/cvFranky.php"><img src="../assets/franky.png" alt="Franky"/>
         </div>
         <div class="uk-card-body">
             <p class="uk-card-title">Franky</p>
@@ -12,7 +12,7 @@
     </div>
     <div class="uk-card uk-card-default uk-card-body uk-margin-left">
         <div class="uk-card-media-top">
-            <a href="./AKBrook.php"><img src="./assets/brook.gif" alt="Brook"/>
+            <a href="../brook/AKBrook.php"><img src="../assets/brook.gif" alt="Brook"/>
         </div>
         <div class="uk-card-body">
             <p class="uk-card-title">Brook</p>
@@ -22,7 +22,7 @@
     </div>
     <div class="uk-card uk-card-default uk-card-body uk-margin-left">
         <div class="uk-card-media-top">
-            <a href="./chopper/TCcv.php"><img src="./assets/chopper.png" alt="Chopper"/>
+            <a href="../chopper/TCcv.php"><img src="../assets/chopper.png" alt="Chopper"/>
         </div>
         <div class="uk-card-body">
             <p class="uk-card-title">Chopper</p>

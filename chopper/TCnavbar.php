@@ -1,13 +1,13 @@
 <nav class="uk-navbar-container uk-visible@s" uk-navbar>
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="../index.php">Accueil</a></li>
+            <li class="uk-active"><a href="../global/index.php">Accueil</a></li>
             <li>
                 <a href="#">Curriculum Vitae</a>
                 <div class="uk-navbar-dropdown">
                     <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="../franky.cv/cvFranky.php">Franky</a></li>
-                        <li><a href="../AKBrook.php">Brook</a></li>
+                        <li><a href="../brook/AKBrook.php">Brook</a></li>
                     </ul>
                 </div>
             </li>
@@ -37,7 +37,7 @@
                 <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
                     <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                        <li class="uk-active"><a href="../index.php">Accueil</a></li>
+                        <li class="uk-active"><a href="../global/index.php">Accueil</a></li>
 
 
                         <li class="uk-nav-header"><a href="TCcv.php">Chopper</a></li>
@@ -51,8 +51,8 @@
                             <a href="./TCcontact.php">Contact</a>
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
-                        <li><a href="../AKBrook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
+                        <li><a href="../franky.cv/cvFranky.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Franky</a></li>
+                        <li><a href="../brook/AKBrook.php"><span class="uk-margin-small-right" uk-icon="icon: file-text"></span>Brook</a></li>
                     </ul>
 
                 </div>

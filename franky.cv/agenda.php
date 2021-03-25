@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<?php include "./navbar.php"?>
+<?php include "./navbar.php" ?>
 <section id = "agenda" >
 <h2> Voici la liste des disponibilités de la semaine.</h2>
 <img src="./assets/agenda.png"  alt="agenda">

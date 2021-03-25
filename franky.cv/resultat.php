@@ -10,7 +10,7 @@
 
 
 
-<?php include "./navbar.php"?>
+<?php include "./navbar.php" ?>
 
 <section id = "message">
     <p> <?php echo $_POST['nomPrenom']?> de <?php echo $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,</br> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,</br> merci de bien vouloir patienter jusqu'à notre retour par mail.</br>

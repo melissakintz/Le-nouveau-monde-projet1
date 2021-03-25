@@ -9,8 +9,8 @@
     </head>
 
     <body>
-        <?php include "./navbar.php"?>
-        <?php include "./header.php"?>
+        <?php include "./navbar.php" ?>
+        <?php include "./header.php" ?>
 
         <div class ="introduction">
             <p>N'hesitez pas à jeter un petit coup d'oeil aux trois favoris du mois.</p>
@@ -19,7 +19,7 @@
         <?php include "./carte.php" ?>
 
 
-        <?php include "./footer.php"?>
+        <?php include "./footer.php" ?>
 
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>

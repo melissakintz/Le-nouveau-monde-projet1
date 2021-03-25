@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<?php include "./navbar.php"?>
+<?php include "./navbar.php" ?>
 <section id = contact>
     <form action = "./resultat.php" method = "POST">
         <fieldset class="uk-fieldset">

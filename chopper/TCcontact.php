@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="../global/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
     <title>Contacte moi | Tony Tony Chopper</title>
 </head>
@@ -50,7 +50,7 @@
         </form>
     </section>
 
-    <?php include "../footer.php" ?>
+    <?php include "../global/footer.php" ?>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 

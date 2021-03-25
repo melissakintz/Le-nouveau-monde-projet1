@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="../global/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
     <title>Contacte moi | Tony Tony Chopper</title>
 </head>
