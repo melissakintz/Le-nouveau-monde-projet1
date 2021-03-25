@@ -18,7 +18,7 @@
             if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
                 if (isset($_POST['select'])) {
                     if (isset($_POST['raison']) && $_POST['raison'] != " "){ ?>
-                        <section id = "message">
+                        <section id = "messages">
                                 <p> <?php echo $_POST['nomPrenom'].' de '. $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,<br/> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,<br/> merci de bien vouloir patienter jusqu'à notre retour par mail.<br/>
                                 </p>
                                 <br/>
