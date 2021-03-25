@@ -56,3 +56,15 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 
 </body>
+<?php
+if ($_POST){
+    if($_POST['equipage']!='' && $_POST['nomPrenom']!='' && $_POST['email']!='' && $_POST['select']!='' && $_POST['raison']!='' && $_POST['message']!=''){
+        if ($_POST['email'] && filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){ 
+        }else{
+            echo '<h3 class="uk-alert-danger">merci de remplir correctement votre email </h3>';
+            }
+        }else{
+        echo '<h3 class="uk-alert-danger">merci de remplir correctement tous les champs </h3>';
+        }
+    }
+?>
