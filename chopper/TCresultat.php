@@ -11,23 +11,20 @@
 <body>
 
     <?php
-    include "./navbar.php";
+    include "./TCnavbar.php";
 
     if (isset($_POST['equipage']) && $_POST['equipage'] != ' '){
         if (isset($_POST['nomPrenom']) && $_POST['nomPrenom']){
             if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
                 if (isset($_POST['select'])) {
-                    if (isset($_POST['message']) && $_POST['raison'] != " "){ ?>
+                    if (isset($_POST['message']) && $_POST['message'] != " "){ ?>
                         <section id = "message">
-                                <p> <?php echo $_POST['nomPrenom'] . ' de ' .  $_POST['equipage']?>, merci d'avoir contacté le Nouveau monde ,<br/> nous avons bien reçu votre demande, elle  sera traitée sous peu par l'un des membres de notre équipage,<br/> merci de bien vouloir patienter jusqu'à notre retour par mail.<br/>
-                                </p>
-                                <br/>
-                                <p> <?php echo htmlentities($_POST['nomPrenom']) . " de " . htmlentities($_POST['equipage'])?> a fait la demande suivante :<br/>
-                                    suite ou pendant le contrat à rencontré le probléme suivant <?php echo htmlentities($_POST['select'])?>
-                                    <?php echo htmlentities($_POST['raison'])?>.<br/>
-                                    Informations supplémentaires :<?php echo htmlentities($_POST['message'])?> </p><br/>
-                                <p>  Nous vous remercions pour votre retour , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> fourni dans le formulaire.<br/>
-                                    Merci de nous faire confiance pour votre demande, bonne fin de journée.</p>
+                            <p>
+                                Je vous remercie pour votre proposition , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> de ma décision.<br/>
+                                Merci de me faire confiance pour votre demande, bonne fin de journée.<br/>
+                            </p><br/>
+                            <p> <?php echo htmlentities($_POST['nomPrenom']) . " de " . htmlentities($_POST['equipage'])?> a fait la demande suivante :<br/>
+                                Offre d'une durée de:  <?php echo htmlentities($_POST['select']). '<br/> Détails de la proposition : <br/>"' . htmlentities($_POST['message'])?>."<br/>
                         </section>
     <?php
                     } else {
@@ -47,7 +44,7 @@
     }
 
 
-    include "./footer.php"
+    include "../global/footer.php"
     ?>
 
 
