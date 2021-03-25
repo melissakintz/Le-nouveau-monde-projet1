@@ -8,8 +8,8 @@
                 <a href="#">Curriculum Vitae</a>
                 <div class="uk-navbar-dropdown">
                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li><a href="./AKBrook.php">Franky</a></li>
-                        <li><a href="./chopper/TCcv.php">Chopper</a></li>
+                        <li><a href="../franky.cv/cvFranky.php">Franky</a></li>
+                        <li><a href="../chopper/TCcv.php">Chopper</a></li>
                      </ul>
                 </div>
             </li>
