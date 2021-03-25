@@ -77,7 +77,7 @@
                 Je très attentionné et gentil. Je n'hésite jamais à aider les personnes dans le besoin. Ca explique surement que je sois devenu médecin.
                 J’adore les compliments même si je ne l’avouerai pas.
                 Je m’émerveille facilement mais j’ai aussi la larme facile… <br/>
-                Je suis plutôt timide, surtout envers les humains inconnus. Et je suis facilement impressionner par toute sortes de choses, mais quand j’ai une mission, je vais tout mettre en oeuvre pour l’accomplir.
+                Je suis plutôt timide, surtout envers les humains inconnus. Et je suis facilement impressionné par toute sorte de choses, mais quand j’ai une mission, je vais tout mettre en oeuvre pour l’accomplir.
                 Je souhaite plus que tout devenir le médecin qui guérira toutes les maladies. Et je mets un point d’honneur à défendre mes patients et à faire mon possible pour les guérir. Je m’énerve facilement si on ne respecte pas mes patients comme il se doit!
             </p>
         </section>
