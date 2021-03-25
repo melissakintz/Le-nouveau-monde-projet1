@@ -1,37 +1,63 @@
 @font-face {
     font-family:'One';
     src:url('../font/one.ttf');
- }
- @font-face {
-    font-family:'One';
-    src:url('../font/one.ttf');
-    font-weight:bold;
- }
- @font-face {
-    font-family:'One';
-    src:url('../font/one.ttf');
-    font-style:italic;
- }
+}
 
-     * {
-        padding: 0;
-        margin: 0;
-    }
-    h1, h2 {
-        font-family: One;
-    }
+/*Global*/
 
-    .introduction {
-        font-size:2vw;
-        text-align: center;
-        padding-top: 5vw;
-        padding-bottom: 2vw;
-    }
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: One;
+}
+
+.introduction {
+    font-size:2vw;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
+
+#agenda {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+
+/* footer */
+
 .crédit {
    text-align: center;
    margin-bottom: 2%;
    font-size: 0.8vw;
 }
+
+.instagram {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    float:right;
+}
+
+.facebook {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    float:right;
+}
+
+#separation {
+    margin-left: 15%;
+    margin-bottom:2%;
+    margin-top: 2%;
+}
+
+/* CV */
 .Presentation {
    text-align:center;
    margin-top: 2%;
@@ -57,46 +83,37 @@
    text-align: center;
    font-size: 1.5vw;   
 }
-.Contact{
-   display: flex;
-   justify-content:flex-start;   
-   margin-left: 5%;
-   margin-top: 10%;
-   font-size: 1.5vw;
+
+.BrookLogo {
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
+
 #bateau {
    margin-left: 25%;
    margin-top: 5%; 
-  }
-#separation {
-   margin-left: 15%;
-   margin-bottom:2%;
-   margin-top: 2%;
-} 
-.Instagram {
-   margin-bottom: 1%;
-   margin-right: 1%;
-   float:right;
 }
 
-.Facebook {
-   margin-bottom: 1%;
-   margin-right: 1%;
-   float:right;
-}
-.BrookLogo {
-   margin-right: 15%;
-   margin-top: 5%;
-   margin-bottom: 15%;
-}
+
+/*Formulaire*/
 #valider {
    text-align: center;
+    margin-bottom: 1%;
 }
 
 #contact {
    margin-top: 2%;
     padding-right: 15vw;
     padding-left: 15vw;
+}
+
+.Contact{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 1.5vw;
 }
 
 #button {
@@ -110,63 +127,65 @@
    height: 50%;
    width:50%;
 }
+<<<<<<< HEAD
 #valider {
    text-align: center;
    margin-bottom: 1%;
 }
 #messages {
+=======
+
+#message {
+>>>>>>> 54fd6c5791e412a9b416d27e70f3438726707906
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
 }
 
-#agenda {
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 2%;
-   margin-bottom: 2%;
-   width: 60%;
-   height: 60%;
-   text-align: center;
-}
+/*mobile*/
 @media screen and (max-width: 767px)
 {
+    /*CV*/
    .imgCompétence {
       display: flex;
       flex-flow: wrap;
       margin-top: 3%;
-     
-}
- h1, h2, p {
-    font-size: 5vw;
-}
- footer #separation {
-    display: none;
+    }
+
+     h1, h2, p {
+        font-size: 5vw;
+    }
+     /*footer*/
+
+     footer #separation {
+        display: none;
+    }
+
+    .instagram {
+        margin-bottom: 1%;
+        margin-left: 1%;
+        float:right;
+    }
+
+    .crédit {
+        display: none;
+    }
 }
 
-.Instagram {
-    margin-bottom: 1%;
-    margin-left: 1%;
-    float:right;
-}
-.crédit {
-    display: none;
-}
-}   
 @media screen and (max-width: 1024px)
 {
-h1, h2,p {
-    font-size: 3vw;
-}
-footer #separation {
-   display: none;
-}
+    h1, h2,p {
+        font-size: 3vw;
+    }
 
-.crédit {
-   display: none;
-}
+    /*footer*/
+    footer #separation {
+       display: none;
+    }
 
-
+    .crédit {
+       display: none;
+    }
 }
 
 
