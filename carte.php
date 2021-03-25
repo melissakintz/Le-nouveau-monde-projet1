@@ -2,7 +2,7 @@
 <div class="uk-flex uk-flex-center uk-flex-wrap-around uk-flex-wrap ">
     <div class="uk-card uk-card-default uk-card-body">
         <div class="uk-card-media-top">
-            <a href="./cvFranky.php"><img src="./assets/franky.png" alt="Franky"/>
+            <a href="./franky.cv/cvFranky.php"><img src="./assets/franky.png" alt="Franky"/>
         </div>
         <div class="uk-card-body">
             <p class="uk-card-title">Franky</p>

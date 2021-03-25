@@ -4,7 +4,7 @@
     </div>
 
     <section class = "crédit uk-visible@s">
-        <br> Le nouveau monde – Tous Droits Réservés - U.S. No. de Brevet 7,599,930 B1; 7,827,125 ainsi que 7,836,060</br>
+        <p> Le nouveau monde – Tous Droits Réservés - U.S. No. de Brevet 7,599,930 B1; 7,827,125 ainsi que 7,836,060<br/>
         Le Site est édité par la société du nouveau monde, SAS au capital de 89.857.930 Berry
         dont le siège social est situé sur  l'île de Yukiryu. </p>
     </section>

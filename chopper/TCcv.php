@@ -13,7 +13,7 @@
     <header>
         <div id="my-id">
         </div>
-        <h2 id = "Présentation"></h2>
+        <h1 id = "Présentation"></h1>
         <div class="uk-child-width-1-2@s uk-light" uk-grid>
             <div>
                 <div class="uk-background-top-right uk-background-cover uk-height-medium  uk-visible@s" style="background-image: url(../assets/chopper/chopper15.gif);">
