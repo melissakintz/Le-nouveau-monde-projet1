@@ -1,5 +1,5 @@
 <!--navbar desktop contact / resultat brook-->
-<nav class="uk-navbar-container; uk-visible@s" uk-navbar>
+<nav class="uk-navbar-container; uk-visible@s" uk-navbar >
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav ">
             <li class="uk-active"><a href="../global/index.php">Accueil</a></li>

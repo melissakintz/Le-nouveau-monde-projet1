@@ -56,7 +56,7 @@
                             <img src="../assets/chopper/chopper14.gif">
                         </div>
                     </div>
-                    <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true ">
                         <img src="../assets/chopper/choppercompetences.png">
                     </div>
                 </div>
@@ -88,7 +88,7 @@
 
         </main>
 
-        <?php include "../global/footer.php" ?>
+        <?php include "../chopper/TCfooter.php" ?>
 
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>

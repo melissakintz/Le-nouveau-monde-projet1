@@ -66,7 +66,7 @@ le célèbre musicien a quitté la scène pour reprendre ... son ancienne vie de
     </div> 
 </section>
 </main>
-    <?php include "../global/footer.php" ?>
+    <?php include "./AKfooter.php" ?>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
     </body>
