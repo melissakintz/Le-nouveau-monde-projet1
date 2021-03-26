@@ -14,19 +14,19 @@
             <legend class="uk-legend ">Contactez moi :</legend>
 
             <div class="uk-margin">
-                <input  class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage">
+                <input  class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage"required>
             </div>
 
             <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom" >
+                <input class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom"required >
             </div>
 
             <div class="uk-margin">
-                <input class="uk-input" type="email" placeholder="Votre email" name="email"  >
+                <input class="uk-input" type="email" placeholder="Votre email" name="email"  required>
             </div>
             <div class="uk-margin">
                 <label>Durée :</label>
-                <select class="uk-select" id ="select" name="select">
+                <select class="uk-select" id ="select" name="select"required>
                     <option name="day">1 à 3 jours</option>
                     <option name="day1">3 à 7 jours</option>
                     <option name="day2">7 à 14 jours</option>
@@ -39,11 +39,11 @@
             </div>
             <label>Type d'offre :</label>
             <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="Type de travail proposer  ( musicien ou combattant)" name="raison" >
+                <input class="uk-input" type="text" placeholder="Type de travail proposer  ( musicien ou combattant)" name="raison" required>
             </div>
             <div class="uk-margin">
                 <label>Merci de décrire votre offre : </label>
-                <textarea class="uk-textarea" rows="5" placeholder="Description de l'offre" name="message"></textarea>
+                <textarea class="uk-textarea" rows="5" placeholder="Description de l'offre" name="message"required></textarea>
             </div>
             <div id = "valider">
                 <input class = "uk-button uk-button-default " type = "submit" value = "valider">
