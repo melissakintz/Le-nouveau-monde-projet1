@@ -12,7 +12,7 @@
     <?php
     include "./navbar.php";
 
-    //test de la validité et de la présence des element et affichage du message de reponse
+//test de la validité et de présence des elements + affichage du message  reponse
     if (isset($_POST['equipage']) && $_POST['equipage'] != ' '){
         if (isset($_POST['nomPrenom']) && $_POST['nomPrenom']){
             if (isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){

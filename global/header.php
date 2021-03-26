@@ -6,9 +6,9 @@
     </div>
 </header>
 
-    <!-- Header mobile-->
+<!-- Header mobile-->
 <header>
-    <div class="uk-background-contain uk-background-muted uk-height-small uk-panel uk-flex uk-flex-middle  uk-flex-center uk-hidden@s" style="background-image: url(../assets/ace.png);">
+    <div class="uk-background-contain uk-background-muted uk-height-small uk-panel uk-flex uk-flex-middle  uk-flex-center uk-hidden@s" style="background-image: url(../assets/banner32.jpg);">
         <h1 style="font-size:4vw;">Bienvenue dans le nouveau monde </h1>
     </div>
 </header>
