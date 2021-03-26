@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Curiculum Vitae de Franky</title>
+        <title>Curriculum Vitae de Franky</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="FRstyle.css" type="text/css">
+        <link rel="stylesheet" href="../global/style.css" type="text/css">
     </head>
 
     <body>
@@ -21,7 +22,7 @@ Il fut appelé autrefois Cutty Flam jusqu'à qu'il se débarrasse de son vrai 
 
 Franky a une apparence pour le moins originale et cela date d'ailleurs de sa jeune enfance. Que ce soit naturel ou pas, il a toujours eu les cheveux bleus et coiffés à la Ace Ventura. Ses vêtements sont invariablement composés d'une chemise déboutonnée à motifs, d'une chaîne en or en guise de collier (qu'il n'aura plus après l'ellipse) et d'un slip de bain style Speedo.
 
-Pour la petite anecdote , il y eu notamment Kokoro (conductrice du fameux Train des Mers, ou Umi Densha) qui le pria maintes fois de mettre un pantalon au risque de passer pour un pervers, à l'époque où il travaillait pour Tom. Lorsqu'il intégra l’Equipage du Nouveau monde, on le traita également de "pervers". Avant de se « modifier » pour devenir le cyborg qu'il est aujourd'hui, Franky avait l'apparence d'un garçon normal (si ce n'est ses cheveux bleus).
+Pour la petite anecdote, il y eu notamment Kokoro (conductrice du fameux Train des Mers, ou Umi Densha) qui le pria maintes fois de mettre un pantalon au risque de passer pour un pervers, à l'époque où il travaillait pour Tom. Lorsqu'il intégra l’Equipage du Nouveau monde, on le traita également de "pervers". Avant de se « modifier » pour devenir le cyborg qu'il est aujourd'hui, Franky avait l'apparence d'un garçon normal (si ce n'est ses cheveux bleus).
 Notons des avant-bras surdimensionnés, des tatouages en forme d'étoile, un menton avec trois fossettes, un nez en métal et un réservoir de Cola situé dans son abdomen, qu'il peut ouvrir et renouveler à mesure que ses réserves d'énergie s'épuisent. Il est toujours nu-pieds, porte des lunettes de soleil à l'occasion et le dessous de ses yeux est souligné d'un trait noir. Pendant l'incident de Baldimore, il fût totalement défiguré, on voyait tous ces circuits du visage et un peu des jambes et du torse.
 Pour ne pas faire peur aux habitants, Franky se mit une carpette de tigre sur la tête, mais celle-ci brûla alors qu'il repensait au moment où il était arrivé dans l'Équipage. C'est ainsi que tous les habitants de Baldimore l'appelèrent " La Bête Sacrée Brûlée".
 <br/>
@@ -79,11 +80,11 @@ Son excentricité se remarque par son accoutrement (son t-shirt hawaïen et son 
 "Un homme, un vrai, n'a pas peur... d'exposer sa virilité au tumulte des flots !" - Franky
 </p>
 </section>
-
-<section class ="Contact uk-visible@s">
-<img src="./FRassets/franky7.jpeg"/>
-
+<br/>
+<section >
+<img class="uk-align-center" src="./FRassets/franky7.jpeg"/>
 </section>
+
 
 </main>
 

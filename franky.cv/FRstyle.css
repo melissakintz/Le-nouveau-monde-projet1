@@ -1,86 +1,73 @@
 @font-face {
     font-family:'One';
-    src:url('./font/one.ttf');
-  }
-  @font-face {
-     font-family:'One';
-     src:url('./font/one.ttf');
-  }
-  @font-face {
-     font-family:'One';
-     src:url('./font/one.ttf');
-     font-weight:bold;
-  }
-  @font-face {
-     font-family:'One';
-     src:url('./font/one.ttf');
-     font-style:italic;
-  }
-
-h1, h2 {
-    font-family: One;
-}
-.Presentation {
-    text-align:center;
-    margin-top: 2%;
+    src:url('../font/one.ttf');
 }
 
-.Biographie {
-    margin-top: 5%;
-    text-align: center;
-    font-size: 1.5vw;
+
+
+/* footer */
+
+.crédit {
+   text-align: center;
+   margin-bottom: 2%;
+   font-size: 0.8vw;
 }
 
-.Compétence {
-    margin-top: 5%;
-    text-align: center;
-    font-size: 1.5vw;
-}
-.imgCompétence {
-    display: flex;
-    justify-content:space-evenly;
-    margin-right: 2%;
-}
-.Personnalité {
-    margin-top: 5%;
-    text-align: center;
-    font-size: 1.5vw;   
-}
-.Contact{
-    display: flex;
-    justify-content:center;   
-    margin-left: 5%;
-    margin-top: 0%;
-    font-size: 1.5vw;
-}
-#bateau {
- margin-left: 33%;
- margin-top: 5%; 
-}
-#Contact {
-    margin-left: 5%;
-}
-#separation {
-    margin-left: 15%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-} 
-.Instagram {
+.instagramFR {
     margin-bottom: 1%;
     margin-right: 1%;
     float:right;
 }
-.BrookLogo {
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 15%;
+
+
+/* Curriculum vitae */
+.Presentation {
+   text-align:center;
+   margin-top: 2%;
 }
 
-.crédit {
-text-align: center;
-margin-bottom: 2%;
-font-size: 0.8vw;
+.Biographie {
+   margin-top: 5%;
+   text-align: center;
+   font-size: 1.5vw;
+}
+.Compétence {
+   margin-top: 5%;
+   text-align: center;
+   font-size: 1.5vw;
+}
+.imgCompétence {
+   display: flex;
+   justify-content:space-evenly;
+   margin-right: 2%;
+}
+.Personnalité {
+   margin-top: 5%;
+   text-align: center;
+   font-size: 1.5vw;   
+}
 
+
+ 
+
+/*Formulaire de Contact*/
+#valider {
+   text-align: center;
+    margin-bottom: 1%;
+}
+
+#contact {
+   margin-top: 2%;
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+.Contact{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 1.5vw;
 }
 
 #button {
@@ -88,51 +75,66 @@ font-size: 0.8vw;
    justify-content: center;
    margin-bottom: 3%;
 }
+
+#fond {
+   background-color: gray;
+   height: 50%;
+   width:50%;
+}
+
 #valider {
-    text-align: center;
-    margin-bottom: 1%;
- }
-#message {
+   text-align: center;
+   margin-bottom: 1%;
+}
+#messages {
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
 }
+
+/*version mobile*/
 @media screen and (max-width: 767px)
 {
-.imgCompétence {
-        display: flex;
-        flex-flow: wrap;
-        margin-top: 3%;
-       
-}
- h1, h2, p {
-    font-size: 5vw;
-}
- footer #separation {
-    display: none;
+    /*CV*/
+   .imgCompétence {
+      display: flex;
+      flex-flow: wrap;
+      margin-top: 3%;
+    }
+
+
+     h1, h2, p {
+        font-size: 5vw;
+    }
+     /*footer*/
+
+     footer #separation {
+        display: none;
+    }
+
+    .instagramFR {
+        margin-bottom: 1%;
+        margin-left: 1%;
+        float:right;
+    }
+
+    .crédit {
+        display: none;
+    }
 }
 
-.Instagram {
-    margin-bottom: 1%;
-    margin-left: 1%;
-    float:right;
-}
-.crédit {
-    display: none;
-}
-}   
 @media screen and (max-width: 1024px)
 {
-h1, h2,p {
-    font-size: 3vw;
-}
-footer #separation {
-   display: none;
-}
+    h1, h2,p {
+        font-size: 3vw;
+    }
 
-.crédit {
-   display: none;
-}
+    /*footer*/
+    footer #separation {
+       display: none;
+    }
 
-
+    .crédit {
+       display: none;
+    }
 }

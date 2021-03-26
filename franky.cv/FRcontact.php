@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title> Contact</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="FRstyle.css" type="text/css">
     </head>
     <body>
     <?php include "./FRnavbar.php" ?>
@@ -20,7 +20,11 @@
             </div>
 
             <div class="uk-margin">
-                <input required class="uk-input" type="text" placeholder="Nom Prénom" name="nomPrenom">
+                <input required class="uk-input" type="text" placeholder="Nom" name="Nom">
+            </div>
+
+            <div class="uk-margin">
+                <input required class="uk-input" type="text" placeholder="Prénom" name="Prenom">
             </div>
 
             <div class="uk-margin">
@@ -57,7 +61,7 @@
     </form>
 </section>
 
-<?php include "./FRfooter.php" ?>
+<?php include "./FRfooter.php"?>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
 

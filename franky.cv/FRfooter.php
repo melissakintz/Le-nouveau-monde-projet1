@@ -10,7 +10,7 @@
 <p>Le Site est édité par la société du nouveau monde, SAS au capital de 89.857.930 Berry</p>
 <p>dont le siège social est situé sur  l'île de Yukiryu. </p>
     </section>
-   <div class = "Instagram">
+   <div class = "instagramFR">
        <a href="https://www.instagram.com/franky.onepiece/?igshid=urttxsgpa111" uk-icon="icon: instagram" target=_blank"></a>
    </div>
 </footer>
