@@ -24,7 +24,7 @@
                                     Je vous remercie pour votre proposition , vous serez recontacté via l'adresse mail <?php echo htmlentities($_POST['email'])?> de ma décision.<br/>
                                     Merci de me faire confiance pour votre demande, bonne fin de journée.<br/>
                                 </p>
-                                <p> <?php echo htmlentities($_POST['nomPrenom']) . " de " . htmlentities($_POST['equipage']) . " a fait la demande suivante :<br/>
+                                <p> <?php echo htmlentities($_POST['prenom']) . " " . htmlentities($_POST['prenom']) .  " de " . htmlentities($_POST['equipage']) . " a fait la demande suivante :<br/>
                                     Offre d'une durée de: " . htmlentities($_POST['select']). '<br/> Détails de la proposition : <br/>"' . htmlentities($_POST['message'])?>."
                                 </p>
                             </section>
