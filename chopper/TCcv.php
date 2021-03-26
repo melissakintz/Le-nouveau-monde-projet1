@@ -6,13 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Curriculum Vitae | Tony Tony Chopper</title>
         <link rel="stylesheet" href="../global/style.css" type="text/css"/>
-        <link rel="stylesheet" href="./TCstyle.css" type="text/css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
     </head>
     <body>
         <?php include "./TCnavbar.php" ?>
         <header>
-            <h1 id = "presentation"></h1>
             <div class="uk-child-width-1-2@s uk-light" uk-grid>
                 <div>
                     <div class="uk-background-top-right uk-background-cover uk-height-medium  uk-visible@s" style="background-image: url(../assets/chopper/chopper15.gif);">
