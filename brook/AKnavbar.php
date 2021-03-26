@@ -1,5 +1,5 @@
 <!--navbar desktop cv de brook-->
-<nav class="uk-navbar-container; uk-visible@s" uk-navbar>
+<nav class="uk-navbar-container; uk-visible@s" uk-navbar >
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav ">
             <li class="uk-active"><a href="../global/index.php">Accueil</a></li>
@@ -24,7 +24,7 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="./Akcontact.php">Contacte moi</a></li>
+            <li><a href="./Akcontact.php">Contactez moi</a></li>
         </ul>
     </div>
 </nav>
