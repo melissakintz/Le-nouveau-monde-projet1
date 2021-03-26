@@ -8,7 +8,9 @@
 
 <body>
 <?php include "./AKnavbar3.php"?>
+
 <?php
+// validation et sécurisation du formulaire suivit du résultat ou du message d'erreur.
 if($_POST){
 
 if($_POST['equipage']!='' && $_POST['nomPrenom']!='' && $_POST['select']!='' && $_POST['raison']!='' && $_POST['message']!=''){

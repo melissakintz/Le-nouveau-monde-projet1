@@ -1,3 +1,4 @@
+<!--navbar desktop book de brook-->
 <nav class="uk-navbar-container; uk-visible@s" uk-navbar>
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav ">
@@ -16,7 +17,7 @@
         </ul>
     </div>
 </nav>
-
+<!--navbar menu burger book de brook-->
 <nav class="uk-navbar uk-navbar-container uk-margin uk-hidden@s" uk-offcanvas>
     <div class="uk-navbar-left">
         <a class="uk-navbar-toggle" href="#">

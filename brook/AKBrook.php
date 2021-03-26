@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="../global/style.css" type="text/css">
     </head>
-
+    <!--Cv de brook-->
     <body>
         <?php include "../brook/AKnavbar.php"?>
+
         <?php include "../brook/AKheader.php"?>
         <main>
 <section class = "Biographie">    
@@ -38,7 +39,8 @@ mais ce ne fut qu'une bref période avant de repartir à la recherche du trésor
 <h2 id = "Compétence">• Mes Compétences</h2>
 <p>Le style de combat que j'utilise est un mélange d'escrime Française et de techniques de combat Samouraïs.</br>
 Mon âme a également un pouvoir sur la musique ce qui lui a permis de séduire des millions de fans dans le monde entier.</br>
-    Je sais aussi imprégner mon épée du froid glacial du royaume des morts, ce qui en fait une arme redoutable.</br></p>
+    Je sais aussi imprégner mon épée du froid glacial du royaume des morts, ce qui en fait une arme redoutable.</br>
+</p>
 </section>
 <section class = "imgCompétence">  
 <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
@@ -69,7 +71,8 @@ CEO of joke about squeletton.
 <section class ="Contact uk-visible@s">
 <img src="../assets/brook/contactme.png"/>
 <p> Aurais-tu l'extrême amabilité de me montrer ta culotte !?</br>
-AHHH non pas ma couronne !?#! </p>
+AHHH non pas ma couronne !?#!
+</p>
 <section id = "bateau"> 
 <img src="../assets/brook/bateau.png">
 </section>

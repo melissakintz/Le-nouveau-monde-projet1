@@ -7,6 +7,7 @@
 
 <body>
 <?php include "./AKnavbar3.php"?>
+<!--formulaire de contact personnel -->
 <section id = contact>
     <form action = "./AKresultat.php" method = "POST">
         <fieldset class="uk-fieldset">
