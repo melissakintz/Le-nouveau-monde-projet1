@@ -31,7 +31,7 @@
                 </script>
             </div>
             <section class = "presentation">
-                <h1> • Tony Tony Chopper • Docteur et Pirate • 17 ans  </h1>
+                <h1> • Tony Tony Chopper • Docteur et Pirate • 17 ans</h1>
             </section>
         </header>
 
