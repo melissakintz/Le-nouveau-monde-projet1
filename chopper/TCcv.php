@@ -56,7 +56,7 @@
                             <img src="../assets/chopper/chopper14.gif">
                         </div>
                     </div>
-                    <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <div class="uk-card uk-card-default uk-visible@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true ">
                         <img src="../assets/chopper/choppercompetences.png">
                     </div>
                 </div>

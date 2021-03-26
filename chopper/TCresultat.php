@@ -46,7 +46,7 @@
         }
 
 
-        include "../global/footer.php"
+        include "../chopper/TCfooter.php"
         ?>
 
 
