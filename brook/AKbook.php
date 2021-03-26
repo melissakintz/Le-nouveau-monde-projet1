@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
         <link rel="stylesheet" href="../global/style.css" type="text/css">
     </head>
-
+    <!--book  de brook-->
     <body>
     <?php include "../brook/AKnavbar2.php"?>
     <main>

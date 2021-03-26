@@ -11,6 +11,10 @@
         <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center  uk-visible@s" style="background-image: url(./FRassets/franky3.gif);">
         </div>
 </div>
+<div>
+        <div class="uk-background-top-left uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-middle uk-flex-center uk-hidden@s " style="background-image: url(./FRassets/franky3.gif);">
+        </div>
+</div>
 
 <script>
     UIkit.util.on('#js-scroll-trigger', 'scrolled', function () {

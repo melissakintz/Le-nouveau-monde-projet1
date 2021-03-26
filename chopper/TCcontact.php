@@ -15,10 +15,10 @@
                 <legend class="uk-legend ">Contactez moi :</legend>
 
                 <div class="uk-margin">
-                    <input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage"> <br/>
-                    <input required class="uk-input" type="text" placeholder="Nom" name="nom">
-                    <input required class="uk-input" type="text" placeholder="Prenom" name="prenom"><br/>
-                    <input class="uk-input" type="email" placeholder="email" name="email" required ><br/>
+                    <p><input required class="uk-input" type="text" placeholder="Nom de votre équipage" name="equipage"></p>
+                    <p><input required class="uk-input" type="text" placeholder="Nom" name="nom"></p>
+                    <p><input required class="uk-input" type="text" placeholder="Prenom" name="prenom"></p>
+                    <p><input class="uk-input" type="email" placeholder="Email" name="email" required ></p>
 
                     <p>
                         <label for="select"">Durée :</label>
@@ -30,6 +30,7 @@
                             <option name="month2">4 à 5 mois </option>
                             <option name="month3">6 à 8 mois </option>
                             <option name="year">1 an </option>
+                            <option name="year1">plus d'1 an </option>
                         </select>
                     </p>
 

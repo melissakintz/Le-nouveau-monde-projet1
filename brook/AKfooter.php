@@ -1,4 +1,5 @@
 <footer>
+    <!--footer du cv de brook-->
 <section id = "button">
 <a id="js-scroll-trigger" class="uk-button " href="#target" uk-scroll>Remonte au menu</a>
 </section>

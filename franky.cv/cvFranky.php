@@ -64,7 +64,11 @@ Pour ne pas faire peur aux habitants, Franky se mit une carpette de tigre sur la
             <img src="./FRassets/franky5.gif">
       </div>
    </div>
-
+   <div>
+   <div class="uk-card uk-card-default  uk-hidden@s uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+           <img src="./FRassets/franky4.gif">
+   </div>
+</div>
 </section>
 
 <section class = "Personnalité">

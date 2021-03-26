@@ -95,7 +95,7 @@
 /*version mobile*/
 @media screen and (max-width: 767px)
 {
-    /*CV*/
+    /*Currilicum Vitae */
    .imgCompétence {
       display: flex;
       flex-flow: wrap;
@@ -106,21 +106,21 @@
      h1, h2, p {
         font-size: 5vw;
     }
-     /*footer*/
+     /*Footer*/
 
      footer #separation {
-        display: none;
-    }
+      display: none;
+  }
 
-    .instagramFR {
-        margin-bottom: 1%;
-        margin-left: 1%;
-        float:right;
-    }
+  .instagramFR {
+      margin-bottom: 1%;
+      margin-left: 1%;
+      float:right;
+  }
 
-    .crédit {
-        display: none;
-    }
+  .crédit {
+      display: none;
+  }
 }
 
 @media screen and (max-width: 1024px)
@@ -129,7 +129,7 @@
         font-size: 3vw;
     }
 
-    /*footer*/
+    /*Footer*/
     footer #separation {
        display: none;
     }
