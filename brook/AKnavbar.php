@@ -23,7 +23,7 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="./Akcontact.php">Contact</a></li>
+            <li><a href="./Akcontact.php">Contacte moi</a></li>
         </ul>
     </div>
 </nav>
