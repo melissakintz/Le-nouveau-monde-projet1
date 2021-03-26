@@ -88,7 +88,7 @@
 
         </main>
 
-        <?php include "../global/footer.php" ?>
+        <?php include "../chopper/TCfooter.php" ?>
 
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
