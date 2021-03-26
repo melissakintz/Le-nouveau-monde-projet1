@@ -3,10 +3,13 @@
 <head>
     <link rel="stylesheet" href="../global/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>Contactez moi | Brook </title>
 </head>
 
 <body>
-<?php include "./AKnavbar3.php"?>
+<?php include "./AKnavbar3.php" ?>
+
 <!--formulaire de contact personnel -->
 <section id = contact>
     <form action = "./AKresultat.php" method = "POST">
