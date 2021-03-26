@@ -91,6 +91,11 @@
     margin-top: 6%;
     margin-bottom: 6%;
 }
+#message {
+   text-align: center;
+   margin-top: 6%;
+   margin-bottom: 6%;
+}
 
 /*version mobile*/
 @media screen and (max-width: 767px)
@@ -120,6 +125,7 @@
 
   .crédit {
       display: none;
+      
   }
 }
 
