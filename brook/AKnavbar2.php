@@ -31,8 +31,8 @@
                             <a href="./Akcontact.php">Contact</a>
                             <a href="./AkBrook.php">Retour</a>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="./chopper/TCcv.php"><span class="uk-margin-small-right" ></span>Franky</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Chopper</a></li>
+                        <li><a href="../franky.cv/cvFranky.php"><span class="uk-margin-small-right" ></span>Franky</a></li>
+                        <li><a href="../chopper/TCcv.php"><span class="uk-margin-small-right" ></span>Chopper</a></li>
                     </ul>
                     
                     

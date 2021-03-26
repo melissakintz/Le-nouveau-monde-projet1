@@ -39,8 +39,8 @@
                         <li><a href="./AKbook.php"><span class="uk-margin-small-right" ></span>Le Book de Brook</a></li> 
                         </li>
                         <li class="uk-nav-header">Curriculum Vitae</li>
-                        <li><a href="TCcv.php"><span class="uk-margin-small-right" ></span>Chopper</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" ></span>Franky</a></li>
+                        <li><a href="../chopper/TCcv.php"><span class="uk-margin-small-right" ></span>Chopper</a></li>
+                        <li><a href="../franky.cv/cvFranky.php"><span class="uk-margin-small-right" ></span>Franky</a></li>
                     </ul>
                 </div>
             </div>
